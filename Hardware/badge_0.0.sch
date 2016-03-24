@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11739,7 +11739,7 @@ for USB-Serial functionalities</text>
 <instance part="LED1" gate="G$1" x="304.8" y="229.87"/>
 <instance part="LED2" gate="G$1" x="320.04" y="170.18"/>
 <instance part="R2" gate="G$1" x="304.8" y="217.17" rot="R90"/>
-<instance part="R4" gate="G$1" x="251.46" y="160.02" rot="R90"/>
+<instance part="R4" gate="G$1" x="254" y="170.18" rot="R180"/>
 <instance part="C1" gate="G$1" x="264.16" y="224.79"/>
 <instance part="C2" gate="G$1" x="312.42" y="227.33"/>
 <instance part="R6" gate="G$1" x="325.12" y="224.79" rot="R90"/>
@@ -11852,16 +11852,12 @@ for USB-Serial functionalities</text>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="231.14" y1="149.86" x2="236.22" y2="149.86" width="0.1524" layer="91"/>
 <junction x="236.22" y="149.86"/>
-<wire x1="236.22" y1="149.86" x2="251.46" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="149.86" x2="259.08" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="149.86" x2="259.08" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="149.86" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="A" pin="GND"/>
 <wire x1="261.62" y1="165.1" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="165.1" x2="259.08" y2="149.86" width="0.1524" layer="91"/>
 <junction x="259.08" y="149.86"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="154.94" x2="251.46" y2="149.86" width="0.1524" layer="91"/>
-<junction x="251.46" y="149.86"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="320.04" y1="152.4" x2="320.04" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="149.86" x2="304.8" y2="149.86" width="0.1524" layer="91"/>
@@ -12252,6 +12248,9 @@ for USB-Serial functionalities</text>
 <wire x1="246.38" y1="175.26" x2="246.38" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="175.26" x2="261.62" y2="175.26" width="0.1524" layer="91"/>
 <junction x="246.38" y="175.26"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="170.18" x2="248.92" y2="170.18" width="0.1524" layer="91"/>
+<junction x="246.38" y="170.18"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -12440,14 +12439,6 @@ for USB-Serial functionalities</text>
 <pinref part="J10" gate="G$1" pin="4"/>
 <wire x1="83.82" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
 <label x="78.74" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U$9" gate="A" pin="~SHDN"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="261.62" y1="170.18" x2="251.46" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="170.18" x2="251.46" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -12809,6 +12800,13 @@ for USB-Serial functionalities</text>
 <pinref part="LED7" gate="G$1" pin="C"/>
 <wire x1="144.78" y1="212.09" x2="144.78" y2="207.01" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="6"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="U$9" gate="A" pin="~SHDN"/>
+<wire x1="259.08" y1="170.18" x2="261.62" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

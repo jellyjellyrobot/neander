@@ -20,6 +20,7 @@ FeTChX
 
 ## Contributors
 
+Jacob
 Darell
 Yu Siang
 Jeremias

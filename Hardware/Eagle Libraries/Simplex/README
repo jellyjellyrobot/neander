@@ -1,0 +1,69 @@
+finest footprints for exotic devices. compatible with Eagle v6.0 or greater.
+
+distributed under the GPLv3 license. provided as-is without any warranty. 
+
+contains footprints for the following devices:
+
+Simplex-Battery
+    - Renata HU2032-LF Li 2032 battery holder
+
+Simplex-Connectors
+    - Lumberg KLBR4
+    - Molex 0530470210
+    - Molex 0530480210
+    - Molex 0530470410
+    - Molex 0530480410
+    - Molex 0530470610
+    - Molex 0530480610
+    - Molex 78800001 mini SIM
+    - Amphenol SIMLOCK "C707 10M006 000 2"
+    - 2x4pin 3M IDC connector
+    - 2x6pin 3M IDC connector
+    - DG58C-B-02P-13 2 pole Degson Electronics screw terminal
+    - DG58C-B-03P-13 3 pole Degson Electronics screw terminal
+    - DG58C-B-04P-13 4 pole Degson Electronics screw terminal
+    - DG58C-B-08P-13 8 pole Degson Electronics screw terminal
+
+Simplex-DiscreteSemi
+    - MOSFET-P channel - sot23-3, sot23-3 power, d-pak
+    - MOSFET-N channel - sot23-3, sot23-3 power, d-pak
+    - SMF05C
+
+Simplex-FreqCtrl
+    - 5x3.2mm crystal
+    - 3.2x1.5mm crystal
+
+Simplex-Fuses
+    - 0805 resettable fuse
+    - 1210 resettable fuse
+    - Eastern Beaver Power Center 8
+
+Simplex-ICs
+    - DS3231
+    - Vishay TSOP312x (vertical and horizontal)
+    - Linear LTC2991
+    - Texas Instruments TPS3613
+    - Texas Instruments BQ24072
+    - Texas Instruments ADS1110
+    - Texas Instruments PGA2311
+    - GlobalTop FGPMMOPA6H
+    - sim900
+    - STK461, STK463, STK465
+    - linear regulators in a D2PAK package
+    - Cypress FM24Vxx serial F-RAM
+    - LM2674
+
+Simplex-Jumpers
+    - 4 way solder jumper
+
+Simplex-rlc
+    - 0805 inductor
+    - yageo YC164 series resistor array
+    - TO220 vertical and horizontal resistor
+
+Simplex-Switches
+    - 6x3.5mm tactile SPST-NO switch
+
+author: Petre Rodan <petre.rodan@simplex.ro>
+url:    https://github.com/rodan/Simplex-Eagle-Libraries
+

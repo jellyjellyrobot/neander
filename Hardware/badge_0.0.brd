@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2660,7 +2660,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$13" library="LYS_special" package="SOT666" value="PEMH9,115" x="57.94375" y="36.5125" rot="R90"/>
 <element name="SJ1" library="SparkFun-Retired" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="35.8775" y="47.9425" rot="R180"/>
 <element name="JP1" library="pinhead" package="2X06" value="" x="45.085" y="39.0525" rot="R270"/>
-<element name="SJ2" library="SparkFun-Retired" package="SJ_2S-TRACE" value="SOLDERJUMPERTRACE" x="-1.5875" y="0.9525"/>
 </elements>
 <signals>
 <signal name="VCC">

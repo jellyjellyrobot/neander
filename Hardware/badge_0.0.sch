@@ -11750,7 +11750,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="U$13" library="LYS_special" deviceset="PEMH9,115" device=""/>
 <part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X6" device=""/>
-<part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
 </parts>
 <sheets>
 <sheet>
@@ -11818,7 +11817,6 @@ for USB-Serial functionalities</text>
 <instance part="U$13" gate="G$1" x="154.94" y="123.19"/>
 <instance part="SJ1" gate="1" x="143.51" y="41.91"/>
 <instance part="JP1" gate="A" x="55.88" y="180.34"/>
-<instance part="SJ2" gate="1" x="142.24" y="33.02"/>
 </instances>
 <busses>
 </busses>

@@ -198,8 +198,8 @@ BL</text>
 <text x="58.89625" y="30.7975" size="0.6096" layer="21" align="center">10k</text>
 <text x="50.4825" y="37.7825" size="1.016" layer="21" font="vector" align="center-left">TX&gt;RX</text>
 <text x="50.4825" y="35.2425" size="1.016" layer="21" font="vector" align="center-left">RX&lt;TX</text>
-<text x="50.4825" y="40.3225" size="1.016" layer="21" font="vector" align="center-left">DTR</text>
-<text x="50.4825" y="32.7025" size="1.016" layer="21" font="vector" align="center-left">RTS</text>
+<text x="50.32375" y="32.7025" size="1.016" layer="21" font="vector" align="center-left">DTR</text>
+<text x="50.32375" y="40.3225" size="1.016" layer="21" font="vector" align="center-left">RTS</text>
 <text x="53.18125" y="8.41375" size="0.6096" layer="21" font="vector" rot="R270" align="center-left">10uF</text>
 <wire x1="52.625625" y1="10.080625" x2="52.625625" y2="9.604375" width="0.3048" layer="21"/>
 <wire x1="53.736875" y1="10.080625" x2="53.736875" y2="9.604375" width="0.3048" layer="21"/>

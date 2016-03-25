@@ -194,12 +194,12 @@ BL</text>
 <text x="52.3875" y="25.0825" size="1.016" layer="21" align="center-right">VBUS</text>
 <text x="52.3875" y="22.5425" size="1.016" layer="21" align="center-right">GND</text>
 <text x="52.3875" y="20.0025" size="1.016" layer="21" align="center-right">SUS</text>
-<text x="45.085" y="46.355" size="0.6096" layer="21" align="center">10k</text>
+<text x="57.94375" y="43.33875" size="0.6096" layer="21" align="center">10k</text>
 <text x="58.89625" y="30.7975" size="0.6096" layer="21" align="center">10k</text>
-<text x="50.4825" y="37.7825" size="1.016" layer="21" font="vector" align="center-left">TX&gt;RX</text>
-<text x="50.4825" y="35.2425" size="1.016" layer="21" font="vector" align="center-left">RX&lt;TX</text>
-<text x="50.32375" y="32.7025" size="1.016" layer="21" font="vector" align="center-left">DTR</text>
-<text x="50.32375" y="40.3225" size="1.016" layer="21" font="vector" align="center-left">RTS</text>
+<text x="48.10125" y="37.7825" size="1.016" layer="21" font="vector" align="center-left">TX&gt;RX</text>
+<text x="48.10125" y="35.2425" size="1.016" layer="21" font="vector" align="center-left">RX&lt;TX</text>
+<text x="47.9425" y="32.7025" size="1.016" layer="21" font="vector" align="center-left">DTR</text>
+<text x="47.9425" y="40.3225" size="1.016" layer="21" font="vector" align="center-left">RTS</text>
 <text x="53.18125" y="8.41375" size="0.6096" layer="21" font="vector" rot="R270" align="center-left">10uF</text>
 <wire x1="52.625625" y1="10.080625" x2="52.625625" y2="9.604375" width="0.3048" layer="21"/>
 <wire x1="53.736875" y1="10.080625" x2="53.736875" y2="9.604375" width="0.3048" layer="21"/>
@@ -242,14 +242,16 @@ BL</text>
 <wire x1="63.103125" y1="18.25625" x2="63.579375" y2="18.25625" width="0.127" layer="21"/>
 <wire x1="63.103125" y1="23.33625" x2="63.579375" y2="23.33625" width="0.127" layer="21"/>
 <wire x1="63.103125" y1="24.28875" x2="63.579375" y2="24.28875" width="0.127" layer="21"/>
-<text x="38.89375" y="46.0375" size="1.016" layer="21" font="vector" rot="SR180" align="center">LCD RESET</text>
-<text x="50.4825" y="42.8625" size="1.016" layer="21" font="vector" align="center-left">VCC</text>
-<text x="50.4825" y="45.4025" size="1.016" layer="21" font="vector" align="center-left">GND</text>
+<text x="36.195" y="46.0375" size="1.016" layer="21" font="vector" rot="SR180" align="center">LCD RESET</text>
+<text x="48.10125" y="42.8625" size="1.016" layer="21" font="vector" align="center-left">VCC</text>
+<text x="48.10125" y="45.4025" size="1.016" layer="21" font="vector" align="center-left">GND</text>
 <text x="4.445" y="21.43125" size="0.6096" layer="21" font="vector" rot="R90" align="center-left">0.1uF</text>
 <wire x1="4.92125" y1="22.304375" x2="4.92125" y2="22.780625" width="0.127" layer="21"/>
 <wire x1="5.87375" y1="22.780625" x2="5.87375" y2="22.304375" width="0.127" layer="21"/>
 <text x="56.99125" y="6.0325" size="1.016" layer="21" font="vector" align="center">POWER</text>
 <text x="36.03625" y="2.38125" size="1.016" layer="21" font="vector" align="center">POWER</text>
+<text x="17.78" y="47.46625" size="0.6096" layer="21" font="vector" rot="R90" align="center">100R</text>
+<text x="17.859375" y="2.38125" size="0.6096" layer="21" font="vector" rot="R90" align="center">100R</text>
 </plain>
 <libraries>
 <library name="gm2">
@@ -2313,60 +2315,6 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 </package>
 </packages>
 </library>
-<library name="adafruit">
-<packages>
-<package name="2X04">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.905" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="-1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
-<pad name="2" x="-3.81" y="1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
-<pad name="3" x="-1.27" y="-1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
-<pad name="4" x="-1.27" y="1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
-<pad name="5" x="1.27" y="-1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
-<pad name="6" x="1.27" y="1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
-<pad name="7" x="3.81" y="-1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
-<pad name="8" x="3.81" y="1.27" drill="1.016" diameter="1.6764" shape="octagon"/>
-<text x="-5.08" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
-<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
-<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
-<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
-<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
-<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
-<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
-<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="jumper">
 <description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -2397,29 +2345,77 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1X02">
+<package name="2X06">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<wire x1="-7.62" y1="-1.905" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-2.54" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-1.905" x2="-7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="1.905" x2="-6.985" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="2.54" x2="-5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="2.54" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="-2.54" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-2.54" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="2.54" x2="6.985" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="2.54" x2="7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-2.54" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-6.35" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="2" x="-6.35" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="3" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="4" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="6" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="7" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="8" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="9" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="10" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="11" x="6.35" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="12" x="6.35" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-7.62" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-7.62" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-6.604" y1="-1.524" x2="-6.096" y2="-1.016" layer="51"/>
+<rectangle x1="-6.604" y1="1.016" x2="-6.096" y2="1.524" layer="51"/>
+<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
+<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
+<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
+<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
+<rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
+<rectangle x1="6.096" y1="-1.524" x2="6.604" y2="-1.016" layer="51"/>
 </package>
 </packages>
 </library>
@@ -2645,7 +2641,6 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <attribute name="MF" value="FARNELL" x="51.1175" y="14.684375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="30K5635" x="51.1175" y="14.684375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J3" library="adafruit" package="2X04" value="2X6 FEMALE" x="47.545625" y="36.5125" rot="R90"/>
 <element name="J2" library="SparkFun-Connectors" package="1X08" value="" x="43.815" y="7.3025" rot="R90">
 <attribute name="PROD_ID" value="CONN-08438" x="43.815" y="7.3025" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2660,12 +2655,12 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <element name="SW2" library="badge" package="MK12C02" value="MK12C02" x="2.69875" y="40.005" smashed="yes" rot="R270"/>
 <element name="U$6" library="Simplex-rlc" package="YC164" value="100R" x="19.923125" y="2.460625"/>
 <element name="U$7" library="Simplex-rlc" package="YC164" value="100R" x="20.0025" y="47.46625" rot="R180"/>
-<element name="U$8" library="Simplex-rlc" package="YC164" value="10k" x="45.005625" y="44.1325" rot="R90"/>
-<element name="U$11" library="Simplex-rlc" package="YC164" value="10k" x="58.181875" y="33.02" rot="R270"/>
+<element name="U$8" library="Simplex-rlc" package="YC164" value="10k" x="58.1025" y="41.275" rot="R90"/>
+<element name="U$11" library="Simplex-rlc" package="YC164" value="10k" x="57.94375" y="33.02" rot="R270"/>
 <element name="U$12" library="badge" package="EVQQWN03W" value="TOUCHSWITCH" x="56.911875" y="46.0375" smashed="yes" rot="R270"/>
 <element name="U$13" library="LYS_special" package="SOT666" value="PEMH9,115" x="57.94375" y="36.5125" rot="R90"/>
-<element name="SJ1" library="jumper" package="SJ" value="" x="38.89375" y="47.78375" rot="R180"/>
-<element name="JP1" library="pinhead" package="1X02" value="" x="48.815625" y="44.1325" rot="R270"/>
+<element name="SJ1" library="jumper" package="SJ" value="" x="36.195" y="47.9425" rot="R180"/>
+<element name="JP1" library="pinhead" package="2X06" value="" x="45.085" y="39.0525" rot="R270"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -2690,8 +2685,8 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="92.23375" y1="8.969375" x2="92.313125" y2="9.04875" width="0.3048" layer="16"/>
 <wire x1="81.75625" y1="34.6075" x2="66.3575" y2="34.6075" width="0.8128" layer="1"/>
 <wire x1="66.3575" y1="34.6075" x2="62.23" y2="30.48" width="0.8128" layer="1"/>
-<wire x1="62.23" y1="30.48" x2="55.245" y2="30.48" width="0.8128" layer="1"/>
-<wire x1="55.245" y1="30.48" x2="40.79875" y2="30.48" width="0.8128" layer="1"/>
+<wire x1="62.23" y1="30.48" x2="57.30875" y2="30.48" width="0.8128" layer="1"/>
+<wire x1="57.30875" y1="30.48" x2="40.79875" y2="30.48" width="0.8128" layer="1"/>
 <wire x1="82.629375" y1="4.92125" x2="78.89875" y2="4.92125" width="0.8128" layer="16"/>
 <wire x1="78.89875" y1="4.92125" x2="77.94625" y2="3.96875" width="0.8128" layer="16"/>
 <wire x1="77.94625" y1="3.96875" x2="77.94625" y2="2.2225" width="0.8128" layer="16"/>
@@ -2717,7 +2712,7 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <via x="74.45375" y="24.13" extent="1-16" drill="0.635" shape="octagon"/>
 <wire x1="74.45375" y1="24.13" x2="83.5580625" y2="24.13" width="0.8128" layer="16"/>
 <wire x1="83.5580625" y1="24.13" x2="83.9231875" y2="24.495125" width="0.3048" layer="16"/>
-<wire x1="45.805625" y1="43.7325" x2="45.805625" y2="42.8575" width="0.3048" layer="1"/>
+<wire x1="58.9025" y1="40.875" x2="58.9025" y2="40" width="0.3048" layer="1"/>
 <wire x1="36.5125" y1="29.36875" x2="36.35375" y2="29.21" width="0.3048" layer="1"/>
 <contactref element="U$11" pad="4"/>
 <contactref element="U$11" pad="1"/>
@@ -2725,18 +2720,15 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <contactref element="U$11" pad="2"/>
 <wire x1="9.04875" y1="29.21" x2="10.95375" y2="29.21" width="0.3048" layer="1"/>
 <wire x1="10.95375" y1="29.21" x2="11.58875" y2="29.21" width="0.8128" layer="1"/>
-<wire x1="11.58875" y1="29.21" x2="35.71875" y2="29.21" width="0.8128" layer="1"/>
-<wire x1="35.71875" y1="29.21" x2="35.8775" y2="29.21" width="0.8128" layer="1"/>
+<wire x1="11.58875" y1="29.21" x2="35.8775" y2="29.21" width="0.8128" layer="1"/>
 <wire x1="35.8775" y1="29.21" x2="36.35375" y2="29.21" width="0.8128" layer="1"/>
 <wire x1="4.44875" y1="37.755" x2="8.2825" y2="37.755" width="0.8128" layer="1"/>
 <wire x1="8.2825" y1="37.755" x2="11.43" y2="34.6075" width="0.8128" layer="1"/>
 <wire x1="11.43" y1="34.6075" x2="11.43" y2="29.36875" width="0.8128" layer="1"/>
 <wire x1="11.43" y1="29.36875" x2="11.58875" y2="29.21" width="0.3048" layer="1"/>
-<wire x1="57.381875" y1="32.62" x2="57.381875" y2="31.745" width="0.3048" layer="1"/>
-<wire x1="57.381875" y1="31.745" x2="57.381875" y2="30.47375" width="0.3048" layer="1"/>
-<wire x1="57.381875" y1="30.47375" x2="55.245" y2="30.48" width="0.3048" layer="1"/>
-<wire x1="57.381875" y1="34.295" x2="57.381875" y2="33.42" width="0.3048" layer="1"/>
-<wire x1="57.381875" y1="33.42" x2="57.381875" y2="32.62" width="0.3048" layer="1"/>
+<wire x1="57.14375" y1="32.62" x2="57.14375" y2="31.745" width="0.3048" layer="1"/>
+<wire x1="57.14375" y1="34.295" x2="57.14375" y2="33.42" width="0.3048" layer="1"/>
+<wire x1="57.14375" y1="33.42" x2="57.14375" y2="32.62" width="0.3048" layer="1"/>
 <wire x1="62.46625" y1="23.8125" x2="62.5475" y2="23.8125" width="0.6096" layer="1"/>
 <wire x1="62.5475" y1="23.8125" x2="62.5475" y2="22.18055" width="0.6096" layer="1"/>
 <wire x1="62.5475" y1="22.18055" x2="62.5602" y2="22.16785" width="0.6096" layer="1"/>
@@ -2747,7 +2739,7 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="67.6275" y1="24.13" x2="69.5325" y2="24.13" width="0.8128" layer="1"/>
 <wire x1="69.5325" y1="24.13" x2="74.45375" y2="24.13" width="0.8128" layer="1"/>
 <contactref element="U$8" pad="3"/>
-<wire x1="45.805625" y1="44.5325" x2="45.805625" y2="43.7325" width="0.3048" layer="1"/>
+<wire x1="58.9025" y1="41.675" x2="58.9025" y2="40.875" width="0.3048" layer="1"/>
 <wire x1="62.5475" y1="24.92375" x2="62.5475" y2="25.0825" width="0.8128" layer="1"/>
 <wire x1="62.5475" y1="25.0825" x2="57.30875" y2="25.0825" width="0.8128" layer="1"/>
 <via x="57.30875" y="25.0825" extent="1-16" drill="0.635" shape="octagon"/>
@@ -2756,13 +2748,11 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="57.30875" y1="30.48" x2="57.15" y2="30.48" width="0.8128" layer="1"/>
 <wire x1="69.59625" y1="19.195625" x2="69.59625" y2="24.06625" width="0.8128" layer="1"/>
 <wire x1="69.59625" y1="24.06625" x2="69.5325" y2="24.13" width="0.8128" layer="1"/>
-<contactref element="JP1" pad="2"/>
-<wire x1="48.815625" y1="42.8625" x2="45.810625" y2="42.8625" width="0.3048" layer="1"/>
-<wire x1="45.810625" y1="42.8625" x2="45.805625" y2="42.8575" width="0.3048" layer="1"/>
-<wire x1="48.815625" y1="42.8625" x2="56.1975" y2="42.8625" width="0.8128" layer="16"/>
-<wire x1="56.1975" y1="42.8625" x2="57.30875" y2="41.75125" width="0.8128" layer="16"/>
-<wire x1="57.30875" y1="41.75125" x2="57.30875" y2="30.48" width="0.8128" layer="16"/>
+<wire x1="56.1975" y1="42.8625" x2="56.276875" y2="42.783125" width="0.8128" layer="16"/>
+<wire x1="56.276875" y1="42.783125" x2="57.30875" y2="41.75125" width="0.8128" layer="16"/>
+<wire x1="57.30875" y1="41.75125" x2="57.30875" y2="40.64" width="0.8128" layer="16"/>
 <contactref element="LED2" pad="A"/>
+<wire x1="57.30875" y1="40.64" x2="57.30875" y2="30.48" width="0.8128" layer="16"/>
 <wire x1="32.720625" y1="2.38125" x2="34.925" y2="2.38125" width="0.3048" layer="1"/>
 <wire x1="34.925" y1="2.38125" x2="36.5125" y2="3.96875" width="0.3048" layer="1"/>
 <via x="36.5125" y="3.96875" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -2770,6 +2760,18 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="36.5125" y1="14.76375" x2="35.8775" y2="15.39875" width="0.3048" layer="16"/>
 <wire x1="35.8775" y1="15.39875" x2="35.8775" y2="29.21" width="0.3048" layer="16"/>
 <via x="35.8775" y="29.21" extent="1-16" drill="0.3048" shape="octagon"/>
+<contactref element="JP1" pad="4"/>
+<wire x1="57.14375" y1="31.745" x2="57.30875" y2="31.745" width="0.3048" layer="1"/>
+<wire x1="57.30875" y1="31.745" x2="57.30875" y2="30.48" width="0.3048" layer="1"/>
+<wire x1="46.355" y1="42.8625" x2="56.276875" y2="42.8625" width="0.8128" layer="16"/>
+<wire x1="56.276875" y1="42.8625" x2="56.276875" y2="42.783125" width="0.8128" layer="16"/>
+<wire x1="58.9025" y1="40.875" x2="60.08375" y2="40.875" width="0.3048" layer="1"/>
+<wire x1="60.08375" y1="40.875" x2="60.16625" y2="40.9575" width="0.3048" layer="1"/>
+<via x="60.16625" y="40.9575" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="60.16625" y1="40.9575" x2="57.62625" y2="40.9575" width="0.3048" layer="16"/>
+<wire x1="57.62625" y1="40.9575" x2="57.30875" y2="40.64" width="0.3048" layer="16"/>
+<contactref element="JP1" pad="3"/>
+<wire x1="46.355" y1="42.8625" x2="43.815" y2="42.8625" width="0.8128" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="LCD1" pad="7"/>
@@ -2849,22 +2851,14 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <via x="76.755625" y="14.605" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="76.755625" y1="14.605" x2="76.755625" y2="7.62" width="0.3048" layer="16"/>
 <wire x1="76.755625" y1="7.62" x2="76.67625" y2="7.540625" width="0.3048" layer="16"/>
-<wire x1="60.6425" y1="45.24375" x2="60.6425" y2="26.749375" width="0.8128" layer="16"/>
 <wire x1="71.59625" y1="45.958125" x2="71.040625" y2="45.4025" width="0.8128" layer="16"/>
-<wire x1="71.040625" y1="45.4025" x2="60.80125" y2="45.4025" width="0.8128" layer="16"/>
-<wire x1="60.80125" y1="45.4025" x2="60.6425" y2="45.24375" width="0.3048" layer="16"/>
-<wire x1="53.511875" y1="48.0375" x2="52.720625" y2="48.0375" width="0.3048" layer="1"/>
-<wire x1="60.311875" y1="48.0375" x2="56.8325" y2="48.0375" width="0.3048" layer="1"/>
-<wire x1="56.8325" y1="48.0375" x2="53.511875" y2="48.0375" width="0.8128" layer="1"/>
-<wire x1="52.498125" y1="48.26" x2="52.720625" y2="48.0375" width="0.3048" layer="1"/>
+<wire x1="60.311875" y1="48.0375" x2="57.4675" y2="48.0375" width="0.3048" layer="1"/>
+<wire x1="57.4675" y1="48.0375" x2="57.30875" y2="48.0375" width="0.3048" layer="1"/>
+<wire x1="57.30875" y1="48.0375" x2="53.511875" y2="48.0375" width="0.3048" layer="1"/>
 <via x="16.906875" y="2.54" extent="1-16" drill="0.635" shape="octagon"/>
 <wire x1="16.906875" y1="2.54" x2="16.906875" y2="23.1775" width="0.8128" layer="16"/>
-<wire x1="60.6425" y1="45.24375" x2="60.6425" y2="47.706875" width="0.8128" layer="16"/>
-<wire x1="60.6425" y1="47.706875" x2="60.311875" y2="48.0375" width="0.3048" layer="16"/>
-<wire x1="60.311875" y1="48.0375" x2="56.8325" y2="48.0375" width="0.8128" layer="16"/>
-<via x="56.8325" y="48.0375" extent="1-16" drill="0.635" shape="octagon"/>
-<wire x1="44.205625" y1="45.4075" x2="44.205625" y2="48.015625" width="0.3048" layer="1"/>
-<wire x1="44.205625" y1="48.015625" x2="44.45" y2="48.26" width="0.3048" layer="1"/>
+<wire x1="60.38875" y1="48.0375" x2="57.30875" y2="48.0375" width="0.8128" layer="16"/>
+<via x="57.30875" y="48.0375" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="J1" pad="2"/>
 <wire x1="51.7525" y1="5.3975" x2="53.18125" y2="6.82625" width="0.8128" layer="1"/>
 <wire x1="53.18125" y1="6.82625" x2="53.18125" y2="8.9675" width="0.8128" layer="1"/>
@@ -2954,7 +2948,6 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <via x="60.80125" y="7.3025" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="61.595" y="7.3025" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="62.38875" y="7.3025" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="60.6425" y1="26.749375" x2="60.6425" y2="26.3525" width="0.127" layer="16"/>
 <polygon width="0.3048" layer="1" isolate="0.127" thermals="no">
 <vertex x="58.7375" y="18.25625"/>
 <vertex x="58.7375" y="24.4475"/>
@@ -2997,14 +2990,10 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="5.3975" y1="23.33625" x2="5.55625" y2="23.1775" width="0.3048" layer="1"/>
 <wire x1="5.55625" y1="23.1775" x2="9.01625" y2="23.1775" width="0.3048" layer="1"/>
 <wire x1="9.01625" y1="23.1775" x2="9.035" y2="23.15875" width="0.3048" layer="1"/>
-<wire x1="44.45" y1="48.26" x2="53.289375" y2="48.26" width="0.3048" layer="1"/>
-<wire x1="53.289375" y1="48.26" x2="53.511875" y2="48.0375" width="0.3048" layer="1"/>
-<wire x1="56.8325" y1="48.0375" x2="48.73625" y2="48.0375" width="0.8128" layer="16"/>
-<wire x1="48.73625" y1="48.0375" x2="18.49875" y2="48.0375" width="0.8128" layer="16"/>
+<wire x1="57.30875" y1="48.0375" x2="46.6725" y2="48.0375" width="0.8128" layer="16"/>
+<wire x1="46.6725" y1="48.0375" x2="43.97375" y2="48.0375" width="0.8128" layer="16"/>
+<wire x1="43.97375" y1="48.0375" x2="18.49875" y2="48.0375" width="0.8128" layer="16"/>
 <wire x1="18.49875" y1="48.0375" x2="16.906875" y2="46.445625" width="0.8128" layer="16"/>
-<contactref element="JP1" pad="1"/>
-<wire x1="48.815625" y1="45.4025" x2="48.73625" y2="45.4025" width="0.8128" layer="16"/>
-<wire x1="48.73625" y1="45.4025" x2="48.73625" y2="48.0375" width="0.8128" layer="16"/>
 <via x="63.5" y="22.06625" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="63.5" y="22.70125" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="62.38875" y="13.49375" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -3019,6 +3008,19 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="19.523125" y1="1.660625" x2="20.323125" y2="1.660625" width="0.3048" layer="1"/>
 <wire x1="20.323125" y1="1.660625" x2="20.234375" y2="1.660625" width="0.3048" layer="1"/>
 <wire x1="20.234375" y1="1.660625" x2="20.16125" y2="1.5875" width="0.3048" layer="1"/>
+<contactref element="JP1" pad="2"/>
+<wire x1="57.3025" y1="42.55" x2="57.30875" y2="42.55" width="0.3048" layer="1"/>
+<wire x1="57.30875" y1="42.55" x2="57.30875" y2="47.87875" width="0.3048" layer="1"/>
+<wire x1="57.30875" y1="47.87875" x2="57.4675" y2="48.0375" width="0.3048" layer="1"/>
+<wire x1="71.040625" y1="45.4025" x2="61.595" y2="45.4025" width="0.8128" layer="16"/>
+<wire x1="61.595" y1="45.4025" x2="61.595" y2="26.035" width="0.8128" layer="16"/>
+<wire x1="60.38875" y1="48.0375" x2="61.595" y2="46.83125" width="0.8128" layer="16"/>
+<wire x1="61.595" y1="46.83125" x2="61.595" y2="45.4025" width="0.8128" layer="16"/>
+<wire x1="46.355" y1="45.4025" x2="46.355" y2="47.72" width="0.8128" layer="16"/>
+<wire x1="46.355" y1="47.72" x2="46.6725" y2="48.0375" width="0.8128" layer="16"/>
+<contactref element="JP1" pad="1"/>
+<wire x1="43.815" y1="45.4025" x2="43.815" y2="47.87875" width="0.8128" layer="16"/>
+<wire x1="43.815" y1="47.87875" x2="43.97375" y2="48.0375" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="LCD1" pad="5"/>
@@ -3032,10 +3034,11 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="34.29" y1="40.005" x2="36.195" y2="41.91" width="0.3048" layer="1"/>
 <wire x1="36.195" y1="41.91" x2="36.195" y2="42.8625" width="0.3048" layer="1"/>
 <wire x1="36.195" y1="42.8625" x2="36.98875" y2="43.65625" width="0.3048" layer="1"/>
-<wire x1="36.98875" y1="43.65625" x2="42.2275" y2="43.65625" width="0.3048" layer="1"/>
-<wire x1="42.2275" y1="43.65625" x2="43.02125" y2="42.8625" width="0.3048" layer="1"/>
-<wire x1="43.02125" y1="42.8625" x2="44.200625" y2="42.8625" width="0.3048" layer="1"/>
-<wire x1="44.200625" y1="42.8625" x2="44.205625" y2="42.8575" width="0.3048" layer="1"/>
+<wire x1="36.98875" y1="43.65625" x2="40.64" y2="43.65625" width="0.3048" layer="1"/>
+<wire x1="57.3025" y1="40" x2="49.05875" y2="40" width="0.3048" layer="1"/>
+<wire x1="49.05875" y1="40" x2="47.46625" y2="41.5925" width="0.3048" layer="1"/>
+<wire x1="47.46625" y1="41.5925" x2="42.70375" y2="41.5925" width="0.3048" layer="1"/>
+<wire x1="42.70375" y1="41.5925" x2="40.64" y2="43.65625" width="0.3048" layer="1"/>
 </signal>
 <signal name="GPIO12/SPI_SO">
 <contactref element="LCD1" pad="4"/>
@@ -3166,10 +3169,6 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="74.45375" y1="38.735" x2="72.54875" y2="40.64" width="0.3048" layer="16"/>
 <wire x1="72.54875" y1="40.64" x2="67.15125" y2="40.64" width="0.3048" layer="16"/>
 <via x="67.15125" y="40.64" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="67.15125" y1="40.64" x2="67.15125" y2="42.38625" width="0.3048" layer="1"/>
-<wire x1="67.15125" y1="42.38625" x2="64.055625" y2="45.481875" width="0.3048" layer="1"/>
-<wire x1="64.055625" y1="45.481875" x2="63.97625" y2="45.56125" width="0.3048" layer="1"/>
-<wire x1="45.959375" y1="45.56125" x2="45.805625" y2="45.4075" width="0.3048" layer="1"/>
 <wire x1="81.915" y1="39.84625" x2="81.915" y2="40.243125" width="0.3048" layer="16"/>
 <wire x1="75.72375" y1="6.588125" x2="77.549375" y2="6.588125" width="0.3048" layer="1"/>
 <wire x1="77.549375" y1="6.588125" x2="79.21625" y2="8.255" width="0.3048" layer="1"/>
@@ -3179,10 +3178,10 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="90.4875" y1="7.46125" x2="93.50375" y2="10.4775" width="0.3048" layer="1"/>
 <wire x1="93.50375" y1="10.4775" x2="93.50375" y2="21.986875" width="0.3048" layer="1"/>
 <wire x1="93.50375" y1="21.986875" x2="96.2025" y2="24.685625" width="0.3048" layer="1"/>
-<wire x1="45.959375" y1="45.56125" x2="45.959375" y2="45.800625" width="0.3048" layer="1"/>
-<wire x1="45.959375" y1="45.800625" x2="46.83125" y2="46.6725" width="0.3048" layer="1"/>
-<wire x1="46.83125" y1="46.6725" x2="62.865" y2="46.6725" width="0.3048" layer="1"/>
-<wire x1="62.865" y1="46.6725" x2="63.97625" y2="45.56125" width="0.3048" layer="1"/>
+<wire x1="58.9025" y1="42.55" x2="60.6375" y2="42.55" width="0.3048" layer="1"/>
+<wire x1="60.6375" y1="42.55" x2="62.07125" y2="41.11625" width="0.3048" layer="1"/>
+<wire x1="62.07125" y1="41.11625" x2="66.675" y2="41.11625" width="0.3048" layer="1"/>
+<wire x1="66.675" y1="41.11625" x2="67.15125" y2="40.64" width="0.3048" layer="1"/>
 </signal>
 <signal name="VBUS">
 <contactref element="U$10" pad="P$VCC"/>
@@ -3269,12 +3268,12 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="57.21175" y1="35.9745" x2="58.57875" y2="34.6075" width="0.3048" layer="1"/>
 <wire x1="58.57875" y1="34.6075" x2="58.57875" y2="34.29" width="0.3048" layer="1"/>
 <wire x1="58.57875" y1="34.29" x2="58.976875" y2="34.29" width="0.3048" layer="1"/>
-<wire x1="58.976875" y1="34.29" x2="58.981875" y2="34.295" width="0.3048" layer="1"/>
+<wire x1="58.976875" y1="34.29" x2="58.74375" y2="34.295" width="0.3048" layer="1"/>
 <wire x1="63.8175" y1="36.195" x2="64.135" y2="36.5125" width="0.3048" layer="1"/>
 <wire x1="64.135" y1="36.5125" x2="65.0875" y2="36.5125" width="0.3048" layer="1"/>
 <wire x1="65.0875" y1="36.5125" x2="65.88125" y2="35.71875" width="0.3048" layer="1"/>
 <wire x1="65.88125" y1="35.71875" x2="76.835" y2="35.71875" width="0.3048" layer="1"/>
-<wire x1="58.981875" y1="34.295" x2="59.53625" y2="34.295" width="0.3048" layer="1"/>
+<wire x1="58.74375" y1="34.295" x2="59.53625" y2="34.295" width="0.3048" layer="1"/>
 <wire x1="59.53625" y1="34.295" x2="61.43625" y2="36.195" width="0.3048" layer="1"/>
 <wire x1="61.43625" y1="36.195" x2="63.8175" y2="36.195" width="0.3048" layer="1"/>
 </signal>
@@ -3297,7 +3296,7 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="80.724375" y1="37.226875" x2="79.930625" y2="37.226875" width="0.3048" layer="16"/>
 <via x="79.930625" y="37.226875" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="79.930625" y1="37.226875" x2="79.930625" y2="43.335625" width="0.3048" layer="1"/>
-<wire x1="58.981875" y1="33.42" x2="59.61375" y2="33.42" width="0.3048" layer="1"/>
+<wire x1="58.74375" y1="33.42" x2="59.61375" y2="33.42" width="0.3048" layer="1"/>
 <wire x1="59.61375" y1="33.42" x2="61.75375" y2="35.56" width="0.3048" layer="1"/>
 <wire x1="61.75375" y1="35.56" x2="64.4525" y2="35.56" width="0.3048" layer="1"/>
 <wire x1="64.4525" y1="35.56" x2="64.61125" y2="35.71875" width="0.3048" layer="1"/>
@@ -3432,15 +3431,13 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <contactref element="J10" pad="14"/>
 <wire x1="69.92375" y1="43.3425" x2="69.84625" y2="43.3425" width="0.3048" layer="1"/>
 <wire x1="69.84625" y1="43.3425" x2="65.24625" y2="47.9425" width="0.3048" layer="1"/>
-<contactref element="J3" pad="3"/>
-<wire x1="48.815625" y1="35.2425" x2="49.68875" y2="35.2425" width="0.3048" layer="1"/>
-<wire x1="49.68875" y1="35.2425" x2="52.3875" y2="37.94125" width="0.3048" layer="1"/>
-<wire x1="52.3875" y1="37.94125" x2="59.055" y2="37.94125" width="0.3048" layer="1"/>
-<wire x1="59.055" y1="37.94125" x2="60.16625" y2="39.0525" width="0.3048" layer="1"/>
-<wire x1="60.16625" y1="39.0525" x2="67.945" y2="39.0525" width="0.3048" layer="1"/>
-<wire x1="67.945" y1="39.0525" x2="69.85" y2="40.9575" width="0.3048" layer="1"/>
+<wire x1="47.3075" y1="35.2425" x2="50.00625" y2="37.94125" width="0.3048" layer="1"/>
+<wire x1="50.00625" y1="37.94125" x2="66.83375" y2="37.94125" width="0.3048" layer="1"/>
+<wire x1="66.83375" y1="37.94125" x2="69.85" y2="40.9575" width="0.3048" layer="1"/>
 <wire x1="69.85" y1="40.9575" x2="69.85" y2="43.26875" width="0.3048" layer="1"/>
 <wire x1="69.85" y1="43.26875" x2="69.92375" y2="43.3425" width="0.3048" layer="1"/>
+<contactref element="JP1" pad="10"/>
+<wire x1="47.3075" y1="35.2425" x2="46.355" y2="35.2425" width="0.3048" layer="1"/>
 </signal>
 <signal name="RX">
 <contactref element="U6" pad="RXD0"/>
@@ -3450,7 +3447,6 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="71.59625" y1="45.72" x2="68.58" y2="45.72" width="0.3048" layer="1"/>
 <wire x1="68.58" y1="45.72" x2="67.78625" y2="46.51375" width="0.3048" layer="1"/>
 <wire x1="67.78625" y1="46.51375" x2="67.78625" y2="47.9425" width="0.3048" layer="1"/>
-<contactref element="J3" pad="5"/>
 <wire x1="67.78625" y1="47.9425" x2="67.78625" y2="48.5775" width="0.3048" layer="1"/>
 <wire x1="67.78625" y1="48.5775" x2="67.15125" y2="49.2125" width="0.3048" layer="1"/>
 <wire x1="67.15125" y1="49.2125" x2="64.4525" y2="49.2125" width="0.3048" layer="1"/>
@@ -3458,12 +3454,11 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="63.65875" y1="48.41875" x2="63.65875" y2="47.625" width="0.3048" layer="1"/>
 <wire x1="63.65875" y1="47.625" x2="68.58" y2="42.70375" width="0.3048" layer="1"/>
 <wire x1="68.58" y1="42.70375" x2="68.58" y2="40.64" width="0.3048" layer="1"/>
-<wire x1="68.58" y1="40.64" x2="67.6275" y2="39.6875" width="0.3048" layer="1"/>
-<wire x1="67.6275" y1="39.6875" x2="59.84875" y2="39.6875" width="0.3048" layer="1"/>
-<wire x1="59.84875" y1="39.6875" x2="59.055" y2="38.89375" width="0.3048" layer="1"/>
-<wire x1="59.055" y1="38.89375" x2="52.22875" y2="38.89375" width="0.3048" layer="1"/>
-<wire x1="52.22875" y1="38.89375" x2="51.1175" y2="37.7825" width="0.3048" layer="1"/>
-<wire x1="51.1175" y1="37.7825" x2="48.815625" y2="37.7825" width="0.3048" layer="1"/>
+<wire x1="68.58" y1="40.64" x2="66.83375" y2="38.89375" width="0.3048" layer="1"/>
+<wire x1="66.83375" y1="38.89375" x2="48.73625" y2="38.89375" width="0.3048" layer="1"/>
+<wire x1="48.73625" y1="38.89375" x2="47.625" y2="37.7825" width="0.3048" layer="1"/>
+<contactref element="JP1" pad="8"/>
+<wire x1="47.625" y1="37.7825" x2="46.355" y2="37.7825" width="0.3048" layer="1"/>
 </signal>
 <signal name="RESET">
 <contactref element="U6" pad="RESET"/>
@@ -3473,36 +3468,40 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <contactref element="U$12" pad="P$3"/>
 <contactref element="U$12" pad="P$2"/>
 <wire x1="65.960625" y1="33.3375" x2="69.929375" y2="29.36875" width="0.3048" layer="16"/>
-<wire x1="63.02375" y1="33.3375" x2="65.960625" y2="33.3375" width="0.3048" layer="16"/>
-<via x="51.1175" y="43.97375" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="63.65875" y1="33.3375" x2="65.960625" y2="33.3375" width="0.3048" layer="16"/>
 <contactref element="U$13" pad="3"/>
-<wire x1="53.575625" y1="43.97375" x2="60.248125" y2="43.97375" width="0.3048" layer="1"/>
-<wire x1="60.248125" y1="43.97375" x2="60.311875" y2="44.0375" width="0.3048" layer="1"/>
-<wire x1="51.1175" y1="43.97375" x2="53.575625" y2="43.97375" width="0.3048" layer="1"/>
-<wire x1="53.575625" y1="43.97375" x2="53.511875" y2="44.0375" width="0.3048" layer="1"/>
-<via x="43.18" y="44.7675" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="43.18" y1="44.7675" x2="43.815" y2="44.1325" width="0.3048" layer="16"/>
-<wire x1="43.815" y1="44.1325" x2="50.95875" y2="44.1325" width="0.3048" layer="16"/>
-<wire x1="50.95875" y1="44.1325" x2="51.1175" y2="43.97375" width="0.3048" layer="16"/>
-<wire x1="63.02375" y1="33.3375" x2="62.23" y2="34.13125" width="0.3048" layer="16"/>
-<wire x1="62.23" y1="34.13125" x2="62.23" y2="37.465" width="0.3048" layer="16"/>
-<via x="62.23" y="37.465" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="62.23" y1="37.465" x2="59.69" y2="37.465" width="0.3048" layer="1"/>
-<wire x1="58.79375" y1="37.0505" x2="59.2755" y2="37.0505" width="0.3048" layer="1"/>
-<wire x1="62.23" y1="37.465" x2="62.23" y2="42.06875" width="0.3048" layer="16"/>
-<via x="62.23" y="42.06875" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="62.23" y1="42.06875" x2="62.23" y2="43.18" width="0.3048" layer="1"/>
-<wire x1="62.23" y1="43.18" x2="61.43625" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="63.65875" y1="33.3375" x2="62.865" y2="34.13125" width="0.3048" layer="16"/>
+<wire x1="58.79375" y1="37.0505" x2="62.865" y2="37.0505" width="0.3048" layer="1"/>
+<wire x1="62.865" y1="34.13125" x2="62.865" y2="36.98875" width="0.3048" layer="16"/>
+<via x="62.865" y="42.545" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="62.865" y1="36.98875" x2="62.865" y2="42.545" width="0.3048" layer="16"/>
+<wire x1="62.865" y1="42.545" x2="61.43625" y2="43.97375" width="0.3048" layer="1"/>
 <wire x1="61.43625" y1="43.97375" x2="60.375625" y2="43.97375" width="0.3048" layer="1"/>
 <wire x1="60.375625" y1="43.97375" x2="60.311875" y2="44.0375" width="0.3048" layer="1"/>
 <contactref element="U$8" pad="6"/>
 <contactref element="SJ1" pad="1"/>
-<wire x1="44.205625" y1="44.5325" x2="43.415" y2="44.5325" width="0.3048" layer="1"/>
-<wire x1="43.415" y1="44.5325" x2="43.18" y2="44.7675" width="0.3048" layer="1"/>
-<wire x1="39.65575" y1="47.78375" x2="40.16375" y2="47.78375" width="0.3048" layer="1"/>
-<wire x1="40.16375" y1="47.78375" x2="43.18" y2="44.7675" width="0.3048" layer="1"/>
-<wire x1="38.1" y1="47.78375" x2="39.65575" y2="47.78375" width="0.3048" layer="1"/>
-<wire x1="59.2755" y1="37.0505" x2="59.69" y2="37.465" width="0.3048" layer="1"/>
+<wire x1="38.1" y1="47.78375" x2="36.957" y2="47.9425" width="0.3048" layer="1"/>
+<wire x1="62.865" y1="37.0505" x2="62.865" y2="36.98875" width="0.3048" layer="1"/>
+<via x="62.865" y="36.98875" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="58.1025" y1="43.4975" x2="58.57875" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="58.57875" y1="43.97375" x2="60.248125" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="60.248125" y1="43.97375" x2="60.311875" y2="44.0375" width="0.3048" layer="1"/>
+<wire x1="58.1025" y1="43.4975" x2="58.1025" y2="42.06875" width="0.3048" layer="1"/>
+<wire x1="58.1025" y1="42.06875" x2="57.785" y2="41.75125" width="0.3048" layer="1"/>
+<wire x1="57.785" y1="41.75125" x2="57.37875" y2="41.75125" width="0.3048" layer="1"/>
+<wire x1="57.37875" y1="41.75125" x2="57.3025" y2="41.675" width="0.3048" layer="1"/>
+<wire x1="57.3025" y1="41.675" x2="56.75" y2="41.675" width="0.3048" layer="1"/>
+<wire x1="56.75" y1="41.675" x2="56.515" y2="41.91" width="0.3048" layer="1"/>
+<wire x1="56.515" y1="41.91" x2="56.515" y2="43.4975" width="0.3048" layer="1"/>
+<wire x1="56.515" y1="43.4975" x2="56.03875" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="56.03875" y1="43.97375" x2="54.76875" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="54.76875" y1="43.97375" x2="54.61" y2="43.815" width="0.3048" layer="1"/>
+<wire x1="54.61" y1="43.815" x2="51.353125" y2="43.815" width="0.3048" layer="1"/>
+<wire x1="51.353125" y1="43.815" x2="53.511875" y2="44.0375" width="0.3048" layer="1"/>
+<wire x1="36.957" y1="47.9425" x2="48.41875" y2="47.78375" width="0.3048" layer="1"/>
+<wire x1="48.41875" y1="47.78375" x2="51.1175" y2="45.085" width="0.3048" layer="1"/>
+<wire x1="51.1175" y1="45.085" x2="51.1175" y2="44.050625" width="0.3048" layer="1"/>
+<wire x1="51.1175" y1="44.050625" x2="53.511875" y2="44.0375" width="0.3048" layer="1"/>
 </signal>
 <signal name="ADC">
 <contactref element="U6" pad="ADC"/>
@@ -3662,7 +3661,7 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="87.15375" y1="5.23875" x2="85.56625" y2="3.65125" width="0.3048" layer="16"/>
 <wire x1="85.56625" y1="3.65125" x2="85.56625" y2="2.2225" width="0.3048" layer="16"/>
 <contactref element="U$11" pad="6"/>
-<wire x1="58.981875" y1="32.62" x2="60.004375" y2="32.62" width="0.3048" layer="1"/>
+<wire x1="58.74375" y1="32.62" x2="60.004375" y2="32.62" width="0.3048" layer="1"/>
 <wire x1="65.88125" y1="34.76625" x2="70.1675" y2="30.48" width="0.3048" layer="16"/>
 <wire x1="70.1675" y1="30.48" x2="73.421875" y2="30.48" width="0.3048" layer="16"/>
 <wire x1="83.97875" y1="27.305" x2="89.455625" y2="21.828125" width="0.3048" layer="16"/>
@@ -3673,15 +3672,13 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="73.421875" y1="30.48" x2="73.9251125" y2="29.9767625" width="0.3048" layer="16"/>
 <wire x1="73.9251125" y1="29.3671625" x2="73.9251125" y2="29.9767625" width="0.3048" layer="16"/>
 <wire x1="60.004375" y1="32.62" x2="62.150625" y2="34.76625" width="0.3048" layer="1"/>
-<via x="63.738125" y="34.76625" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="62.150625" y1="34.76625" x2="63.738125" y2="34.76625" width="0.3048" layer="1"/>
-<wire x1="63.738125" y1="34.76625" x2="65.88125" y2="34.76625" width="0.3048" layer="16"/>
+<via x="64.690625" y="34.76625" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="62.150625" y1="34.76625" x2="64.690625" y2="34.76625" width="0.3048" layer="1"/>
+<wire x1="64.690625" y1="34.76625" x2="65.88125" y2="34.76625" width="0.3048" layer="16"/>
 </signal>
 <signal name="S_DTR">
 <contactref element="IC1" pad="28"/>
 <contactref element="J2" pad="3"/>
-<contactref element="J3" pad="2"/>
-<wire x1="46.275625" y1="32.7025" x2="38.1" y2="32.7025" width="0.3048" layer="1"/>
 <wire x1="38.1" y1="32.7025" x2="37.465" y2="32.0675" width="0.3048" layer="1"/>
 <via x="37.465" y="32.0675" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="37.465" y1="32.0675" x2="37.465" y2="16.1925" width="0.3048" layer="16"/>
@@ -3691,6 +3688,8 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="48.73625" y1="13.17625" x2="45.72" y2="13.17625" width="0.3048" layer="1"/>
 <wire x1="48.73625" y1="13.17625" x2="48.8175" y2="13.184375" width="0.3048" layer="1"/>
 <wire x1="43.815" y1="12.3825" x2="44.92625" y2="12.3825" width="0.3048" layer="1"/>
+<contactref element="JP1" pad="11"/>
+<wire x1="43.815" y1="32.7025" x2="38.1" y2="32.7025" width="0.3048" layer="1"/>
 </signal>
 <signal name="S_DCD">
 <contactref element="IC1" pad="1"/>
@@ -3718,20 +3717,18 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <signal name="S_TXD">
 <contactref element="IC1" pad="26"/>
 <contactref element="J2" pad="5"/>
-<contactref element="J3" pad="6"/>
-<wire x1="46.275625" y1="37.7825" x2="41.43375" y2="37.7825" width="0.3048" layer="16"/>
 <wire x1="41.43375" y1="37.7825" x2="40.005" y2="36.35375" width="0.3048" layer="16"/>
 <wire x1="40.005" y1="36.35375" x2="40.005" y2="19.3675" width="0.3048" layer="16"/>
 <wire x1="43.815" y1="17.4625" x2="41.91" y2="17.4625" width="0.3048" layer="16"/>
 <wire x1="40.005" y1="19.3675" x2="41.91" y2="17.4625" width="0.3048" layer="16"/>
 <wire x1="48.8175" y1="14.184375" x2="47.093125" y2="14.184375" width="0.3048" layer="1"/>
 <wire x1="47.093125" y1="14.184375" x2="43.815" y2="17.4625" width="0.3048" layer="1"/>
+<contactref element="JP1" pad="7"/>
+<wire x1="43.815" y1="37.7825" x2="41.43375" y2="37.7825" width="0.3048" layer="16"/>
 </signal>
 <signal name="S_RXD">
 <contactref element="IC1" pad="25"/>
 <contactref element="J2" pad="6"/>
-<contactref element="J3" pad="4"/>
-<wire x1="46.275625" y1="35.2425" x2="42.2275" y2="35.2425" width="0.3048" layer="16"/>
 <wire x1="42.2275" y1="35.2425" x2="41.275" y2="34.29" width="0.3048" layer="16"/>
 <wire x1="41.275" y1="34.29" x2="41.275" y2="20.6375" width="0.3048" layer="16"/>
 <wire x1="41.91" y1="20.0025" x2="43.815" y2="20.0025" width="0.3048" layer="16"/>
@@ -3740,6 +3737,8 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="47.704375" y1="14.684375" x2="45.24375" y2="17.145" width="0.3048" layer="1"/>
 <wire x1="45.24375" y1="17.145" x2="45.24375" y2="18.57375" width="0.3048" layer="1"/>
 <wire x1="45.24375" y1="18.57375" x2="43.815" y2="20.0025" width="0.3048" layer="1"/>
+<contactref element="JP1" pad="9"/>
+<wire x1="43.815" y1="35.2425" x2="42.2275" y2="35.2425" width="0.3048" layer="16"/>
 </signal>
 <signal name="S_RTS">
 <contactref element="IC1" pad="24"/>
@@ -3747,13 +3746,13 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="38.735" y1="39.37" x2="38.735" y2="22.5425" width="0.3048" layer="16"/>
 <via x="38.735" y="22.5425" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="38.735" y1="22.5425" x2="43.815" y2="22.5425" width="0.3048" layer="1"/>
-<contactref element="J3" pad="8"/>
-<wire x1="46.275625" y1="40.3225" x2="39.6875" y2="40.3225" width="0.3048" layer="16"/>
 <wire x1="39.6875" y1="40.3225" x2="38.735" y2="39.37" width="0.3048" layer="16"/>
 <wire x1="48.8175" y1="15.184375" x2="47.998125" y2="15.184375" width="0.3048" layer="1"/>
 <wire x1="47.998125" y1="15.184375" x2="45.87875" y2="17.30375" width="0.3048" layer="1"/>
 <wire x1="45.87875" y1="17.30375" x2="45.87875" y2="20.47875" width="0.3048" layer="1"/>
 <wire x1="45.87875" y1="20.47875" x2="43.815" y2="22.5425" width="0.3048" layer="1"/>
+<contactref element="JP1" pad="5"/>
+<wire x1="39.6875" y1="40.3225" x2="43.815" y2="40.3225" width="0.3048" layer="16"/>
 </signal>
 <signal name="S_CTS">
 <contactref element="IC1" pad="23"/>
@@ -3819,16 +3818,16 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="18.9525" y1="46.44125" x2="18.7275" y2="46.66625" width="0.3048" layer="1"/>
 </signal>
 <signal name="AUTO_DTR">
-<contactref element="J3" pad="1"/>
 <contactref element="U$13" pad="1"/>
 <contactref element="U$13" pad="5"/>
 <wire x1="57.01875" y1="36.5125" x2="57.4675" y2="36.5125" width="0.3048" layer="1"/>
 <wire x1="57.4675" y1="36.5125" x2="58.1025" y2="35.8775" width="0.3048" layer="1"/>
 <wire x1="58.1025" y1="35.8775" x2="58.69575" y2="35.8775" width="0.3048" layer="1"/>
 <wire x1="58.69575" y1="35.8775" x2="58.79375" y2="35.9755" width="0.3048" layer="1"/>
-<wire x1="48.815625" y1="32.7025" x2="49.68875" y2="32.7025" width="0.3048" layer="1"/>
-<wire x1="49.68875" y1="32.7025" x2="53.49875" y2="36.5125" width="0.3048" layer="1"/>
-<wire x1="53.49875" y1="36.5125" x2="57.01875" y2="36.5125" width="0.3048" layer="1"/>
+<wire x1="47.46625" y1="32.7025" x2="51.27625" y2="36.5125" width="0.3048" layer="1"/>
+<wire x1="51.27625" y1="36.5125" x2="57.01875" y2="36.5125" width="0.3048" layer="1"/>
+<contactref element="JP1" pad="12"/>
+<wire x1="47.46625" y1="32.7025" x2="46.355" y2="32.7025" width="0.3048" layer="1"/>
 </signal>
 <signal name="AUTO_RTS">
 <contactref element="U$13" pad="2"/>
@@ -3836,13 +3835,13 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <wire x1="57.09475" y1="37.0505" x2="57.72325" y2="37.0505" width="0.3048" layer="1"/>
 <wire x1="57.72325" y1="37.0505" x2="58.26125" y2="36.5125" width="0.3048" layer="1"/>
 <wire x1="58.26125" y1="36.5125" x2="58.86675" y2="36.5125" width="0.3048" layer="1"/>
-<contactref element="J3" pad="7"/>
-<wire x1="57.09475" y1="37.0505" x2="52.9255" y2="37.0505" width="0.3048" layer="1"/>
-<wire x1="52.9255" y1="37.0505" x2="49.8475" y2="33.9725" width="0.3048" layer="1"/>
-<wire x1="49.8475" y1="33.9725" x2="47.9425" y2="33.9725" width="0.3048" layer="1"/>
-<wire x1="47.9425" y1="33.9725" x2="47.46625" y2="34.44875" width="0.3048" layer="1"/>
-<wire x1="47.46625" y1="34.44875" x2="47.46625" y2="38.973125" width="0.3048" layer="1"/>
-<wire x1="47.46625" y1="38.973125" x2="48.815625" y2="40.3225" width="0.3048" layer="1"/>
+<wire x1="57.09475" y1="37.0505" x2="50.54425" y2="37.0505" width="0.3048" layer="1"/>
+<wire x1="50.54425" y1="37.0505" x2="47.46625" y2="33.9725" width="0.3048" layer="1"/>
+<wire x1="47.46625" y1="33.9725" x2="45.56125" y2="33.9725" width="0.3048" layer="1"/>
+<wire x1="45.56125" y1="33.9725" x2="45.085" y2="34.44875" width="0.3048" layer="1"/>
+<wire x1="45.085" y1="34.44875" x2="45.085" y2="39.0525" width="0.3048" layer="1"/>
+<contactref element="JP1" pad="6"/>
+<wire x1="46.355" y1="40.3225" x2="45.085" y2="39.0525" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC1" pad="M"/>
@@ -3867,21 +3866,22 @@ Source: Philips - BAS70_1PS7XSB70_SER_8.pdf</description>
 <contactref element="U$8" pad="7"/>
 <contactref element="LCD1" pad="9"/>
 <contactref element="SJ1" pad="2"/>
-<wire x1="44.205625" y1="43.7325" x2="43.10375" y2="43.7325" width="0.3048" layer="1"/>
-<wire x1="43.10375" y1="43.7325" x2="41.75125" y2="45.085" width="0.3048" layer="1"/>
-<wire x1="41.75125" y1="45.085" x2="38.1" y2="45.085" width="0.3048" layer="1"/>
-<wire x1="38.1" y1="45.085" x2="38.1" y2="47.752" width="0.3048" layer="1"/>
-<wire x1="38.1" y1="47.752" x2="38.13175" y2="47.78375" width="0.3048" layer="1"/>
-<wire x1="38.1" y1="45.085" x2="37.465" y2="45.085" width="0.3048" layer="1"/>
-<wire x1="37.465" y1="45.085" x2="35.56" y2="43.18" width="0.3048" layer="1"/>
-<wire x1="35.56" y1="43.18" x2="35.56" y2="42.2275" width="0.3048" layer="1"/>
-<wire x1="35.56" y1="42.2275" x2="34.29" y2="40.9575" width="0.3048" layer="1"/>
+<wire x1="41.5925" y1="45.085" x2="35.40125" y2="45.085" width="0.3048" layer="1"/>
+<wire x1="35.40125" y1="45.085" x2="35.40125" y2="48.0695" width="0.3048" layer="1"/>
+<wire x1="35.40125" y1="48.0695" x2="35.433" y2="47.9425" width="0.3048" layer="1"/>
+<wire x1="35.40125" y1="45.085" x2="35.40125" y2="42.06875" width="0.3048" layer="1"/>
+<wire x1="35.40125" y1="42.06875" x2="34.29" y2="40.9575" width="0.3048" layer="1"/>
 <wire x1="34.29" y1="40.9575" x2="18.25625" y2="40.9575" width="0.3048" layer="1"/>
 <via x="18.25625" y="40.9575" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="18.25625" y1="40.9575" x2="18.25625" y2="21.11375" width="0.3048" layer="16"/>
 <via x="18.25625" y="21.11375" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="18.25625" y1="21.11375" x2="9.08" y2="21.11375" width="0.3048" layer="1"/>
 <wire x1="9.08" y1="21.11375" x2="9.035" y2="21.15875" width="0.3048" layer="1"/>
+<wire x1="41.5925" y1="45.085" x2="42.545" y2="44.1325" width="0.3048" layer="1"/>
+<wire x1="42.545" y1="44.1325" x2="47.3075" y2="44.1325" width="0.3048" layer="1"/>
+<wire x1="47.3075" y1="44.1325" x2="50.4825" y2="40.9575" width="0.3048" layer="1"/>
+<wire x1="50.4825" y1="40.9575" x2="57.22" y2="40.9575" width="0.3048" layer="1"/>
+<wire x1="57.22" y1="40.9575" x2="57.3025" y2="40.875" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="U$6" pad="6"/>

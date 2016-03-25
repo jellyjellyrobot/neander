@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3491,18 +3491,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="56.75" y1="41.675" x2="56.515" y2="41.91" width="0.3048" layer="1"/>
 <wire x1="56.515" y1="41.91" x2="56.515" y2="43.4975" width="0.3048" layer="1"/>
 <wire x1="56.515" y1="43.4975" x2="56.03875" y2="43.97375" width="0.3048" layer="1"/>
-<wire x1="56.03875" y1="43.97375" x2="54.76875" y2="43.97375" width="0.3048" layer="1"/>
 <wire x1="54.76875" y1="43.97375" x2="54.61" y2="43.815" width="0.3048" layer="1"/>
-<wire x1="54.61" y1="43.815" x2="51.353125" y2="43.815" width="0.3048" layer="1"/>
-<wire x1="51.353125" y1="43.815" x2="53.511875" y2="44.0375" width="0.3048" layer="1"/>
-<wire x1="48.41875" y1="47.78375" x2="51.1175" y2="45.085" width="0.3048" layer="1"/>
-<wire x1="51.1175" y1="45.085" x2="51.1175" y2="44.050625" width="0.3048" layer="1"/>
-<wire x1="51.1175" y1="44.050625" x2="53.511875" y2="44.0375" width="0.3048" layer="1"/>
-<wire x1="48.41875" y1="47.78375" x2="36.3855" y2="47.78375" width="0.3048" layer="1"/>
-<wire x1="36.3855" y1="47.78375" x2="36.3855" y2="47.9425" width="0.3048" layer="1"/>
+<wire x1="48.26" y1="47.9425" x2="52.22875" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="48.26" y1="47.9425" x2="36.3855" y2="47.9425" width="0.3048" layer="1"/>
 <via x="58.1025" y="43.97375" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="58.1025" y1="43.97375" x2="56.03875" y2="43.97375" width="0.3048" layer="16"/>
 <via x="56.03875" y="43.97375" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="56.03875" y1="43.97375" x2="53.511875" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="53.511875" y1="43.97375" x2="53.511875" y2="44.0375" width="0.3048" layer="1"/>
+<wire x1="52.22875" y1="43.97375" x2="53.0225" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="53.0225" y1="43.97375" x2="53.448125" y2="43.97375" width="0.3048" layer="1"/>
+<wire x1="53.448125" y1="43.97375" x2="53.511875" y2="44.0375" width="0.3048" layer="1"/>
+<wire x1="54.61" y1="43.815" x2="53.18125" y2="43.815" width="0.3048" layer="1"/>
+<wire x1="53.18125" y1="43.815" x2="53.0225" y2="43.97375" width="0.3048" layer="1"/>
 </signal>
 <signal name="ADC">
 <contactref element="U6" pad="ADC"/>

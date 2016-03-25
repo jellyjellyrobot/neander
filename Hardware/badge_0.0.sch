@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11748,7 +11748,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="U$12" library="badge" deviceset="TOUCHSWITCH" device=""/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="U$13" library="LYS_special" deviceset="PEMH9,115" device=""/>
-<part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE" value="LCD_RESET"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X6" device=""/>
 </parts>
 <sheets>

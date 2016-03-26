@@ -322,6 +322,12 @@ on line before snapping
 <wire x1="49.05375" y1="25.9159375" x2="49.05375" y2="26.7890625" width="0.0635" layer="20" curve="180"/>
 <wire x1="52.86375" y1="26.7890625" x2="52.86375" y2="25.9159375" width="0.0635" layer="20" curve="180"/>
 <text x="2.38125" y="25.4" size="0.8128" layer="21" font="vector" rot="R90" align="center">CUT OUT</text>
+<text x="26.9875" y="2.06375" size="0.6096" layer="21" font="vector" align="center-right">Power
+LED EN</text>
+<wire x1="6.985" y1="5.23875" x2="11.1125" y2="5.23875" width="0.8128" layer="22"/>
+<wire x1="27.14625" y1="5.23875" x2="30.95625" y2="5.23875" width="0.8128" layer="22"/>
+<wire x1="7.14375" y1="45.085" x2="10.95375" y2="45.085" width="0.8128" layer="22"/>
+<wire x1="26.9875" y1="45.085" x2="30.95625" y2="45.085" width="0.8128" layer="22"/>
 </plain>
 <libraries>
 <library name="gm2">
@@ -2730,6 +2736,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$13" library="LYS_special" package="SOT666" value="PEMH9,115" x="57.94375" y="39.52875" rot="R90"/>
 <element name="SJ1" library="SparkFun-Retired" package="SJ_2S-TRACE" value="LCD_RESET" x="35.8775" y="47.9425" rot="R180"/>
 <element name="JP1" library="pinhead" package="2X06" value="" x="45.085" y="41.5925" rot="R270"/>
+<element name="SJ2" library="SparkFun-Retired" package="SJ_2S-TRACE" value="POWERLED_EN" x="28.2575" y="2.06375"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -4023,9 +4030,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </signal>
 <signal name="N$15">
 <contactref element="U$6" pad="4"/>
-<contactref element="LED2" pad="C"/>
-<wire x1="30.620625" y1="2.38125" x2="21.91875" y2="2.38125" width="0.3048" layer="1"/>
-<wire x1="21.91875" y1="2.38125" x2="21.198125" y2="1.660625" width="0.3048" layer="1"/>
+<contactref element="SJ2" pad="1"/>
+<wire x1="21.198125" y1="1.660625" x2="21.663125" y2="1.660625" width="0.3048" layer="1"/>
+<wire x1="21.663125" y1="1.660625" x2="22.06625" y2="2.06375" width="0.3048" layer="1"/>
+<wire x1="22.06625" y1="2.06375" x2="27.7495" y2="2.06375" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="LED4" pad="C"/>
@@ -4119,6 +4127,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="48.41875" y1="45.4025" x2="46.355" y2="45.4025" width="0.8128" layer="1"/>
 <wire x1="61.71" y1="4.528125" x2="61.71" y2="6.07625" width="0.6096" layer="1"/>
 <wire x1="61.71" y1="6.07625" x2="61.595" y2="6.19125" width="0.6096" layer="1"/>
+</signal>
+<signal name="N$16">
+<contactref element="SJ2" pad="2"/>
+<contactref element="LED2" pad="C"/>
+<wire x1="28.7655" y1="2.06375" x2="30.303125" y2="2.06375" width="0.3048" layer="1"/>
+<wire x1="30.303125" y1="2.06375" x2="30.620625" y2="2.38125" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <errors>

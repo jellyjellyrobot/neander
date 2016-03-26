@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11750,6 +11750,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="U$13" library="LYS_special" deviceset="PEMH9,115" device=""/>
 <part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE" value="LCD_RESET"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X6" device=""/>
+<part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="TRACE" value="POWERLED_EN"/>
 </parts>
 <sheets>
 <sheet>
@@ -11817,6 +11818,10 @@ for USB-Serial functionalities</text>
 <instance part="U$13" gate="G$1" x="154.94" y="123.19"/>
 <instance part="SJ1" gate="1" x="143.51" y="41.91"/>
 <instance part="JP1" gate="A" x="55.88" y="180.34"/>
+<instance part="SJ2" gate="1" x="228.6" y="52.07" smashed="yes" rot="R90">
+<attribute name="NAME" x="226.06" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="231.14" y="45.72" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12761,10 +12766,10 @@ for USB-Serial functionalities</text>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="4"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="228.6" y1="66.04" x2="228.6" y2="44.45" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="46.99" x2="228.6" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="44.45" x2="243.84" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="46.99" x2="243.84" y2="44.45" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -12830,6 +12835,13 @@ for USB-Serial functionalities</text>
 <wire x1="82.55" y1="127" x2="82.55" y2="128.27" width="0.1524" layer="91"/>
 <junction x="82.55" y="128.27"/>
 <label x="91.44" y="128.27" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="228.6" y1="66.04" x2="228.6" y2="57.15" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="1" pin="2"/>
 </segment>
 </net>
 </nets>

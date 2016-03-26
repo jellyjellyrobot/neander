@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12687,10 +12687,7 @@ for USB-Serial functionalities</text>
 <wire x1="266.7" y1="73.66" x2="266.7" y2="76.2" width="0.1524" layer="91"/>
 <junction x="266.7" y="76.2"/>
 <pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="238.76" y1="73.66" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
-<junction x="238.76" y="76.2"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="248.92" y1="73.66" x2="248.92" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="76.2" x2="261.62" y2="78.74" width="0.1524" layer="91"/>
 <junction x="261.62" y="76.2"/>
 <pinref part="SW2" gate="G$1" pin="P$1"/>
@@ -12698,6 +12695,9 @@ for USB-Serial functionalities</text>
 <wire x1="287.02" y1="76.2" x2="295.91" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="295.91" y1="76.2" x2="295.91" y2="73.66" width="0.1524" layer="91"/>
 <junction x="287.02" y="76.2"/>
+<wire x1="248.92" y1="76.2" x2="248.92" y2="73.66" width="0.1524" layer="91"/>
+<junction x="248.92" y="76.2"/>
+<wire x1="238.76" y1="76.2" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -12840,6 +12840,31 @@ for USB-Serial functionalities</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,182.88,53.34,LCD1,VDD,VCC,,,"/>
+<approved hash="104,1,81.28,128.27,U4,VDD,VBUS,,,"/>
+<approved hash="104,1,63.5,220.98,IC1,VDD,N$20,,,"/>
+<approved hash="104,1,63.5,203.2,IC1,GND,N$5,,,"/>
+<approved hash="106,1,19.05,208.28,ID,,,,,"/>
+<approved hash="106,1,63.5,203.2,N$5,,,,,"/>
+<approved hash="208,1,138.43,81.28,VCC,sup,,,,"/>
+<approved hash="208,1,171.45,53.34,VCC,sup,,,,"/>
+<approved hash="208,1,298.45,224.79,VCC,out,,,,"/>
+<approved hash="208,1,321.31,229.87,VCC,sup,,,,"/>
+<approved hash="113,1,288.17,150.156,U6,,,,,"/>
+<approved hash="113,1,348.657,158.945,J10,,,,,"/>
+<approved hash="113,1,206.333,160.469,J8,,,,,"/>
+<approved hash="113,1,130.217,205.545,J2,,,,,"/>
+<approved hash="113,1,130.217,224.595,J1,,,,,"/>
+<approved hash="113,1,296.232,69.85,LED3,,,,,"/>
+<approved hash="113,1,249.242,69.85,LED4,,,,,"/>
+<approved hash="113,1,239.082,69.85,LED5,,,,,"/>
+<approved hash="113,1,267.022,69.85,LED6,,,,,"/>
+<approved hash="113,1,277.182,69.85,LED7,,,,,"/>
+<approved hash="113,1,287.342,69.85,LED8,,,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
+<approved hash="113,1,57.1077,180.471,JP1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

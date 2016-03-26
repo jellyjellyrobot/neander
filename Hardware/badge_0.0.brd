@@ -2428,7 +2428,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="DirtyPCB">
+<designrules name="dirt_cheap_dirty_boards.v1">
 <description language="en">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
 &lt;br&gt;
 &lt;br&gt;Min width/Spacing: 5/5mil
@@ -3949,6 +3949,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="19,1,4e7a8489a4198e1a"/>
 <approved hash="19,1,03595a725360efb9"/>
 <approved hash="19,1,cdd2c203af492dc5"/>
+<approved hash="19,1,525cba217183a770"/>
+<approved hash="19,1,71c876255d8b1177"/>
+<approved hash="19,1,b83d4e5204e2de20"/>
+<approved hash="19,1,10d4042983f4a987"/>
+<approved hash="19,1,79a34c63ba40ac4e"/>
 </errors>
 </board>
 </drawing>

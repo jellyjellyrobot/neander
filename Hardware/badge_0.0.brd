@@ -199,7 +199,7 @@ BL</text>
 <text x="48.10125" y="37.7825" size="1.016" layer="21" font="vector" align="center-left">RX&lt;TX</text>
 <text x="47.9425" y="35.2425" size="1.016" layer="21" font="vector" align="center-left">DTR</text>
 <text x="47.9425" y="42.8625" size="1.016" layer="21" font="vector" align="center-left">RTS</text>
-<text x="55.72125" y="10.16" size="0.6096" layer="21" font="vector" align="center-left">10uF</text>
+<text x="52.86375" y="9.2075" size="0.6096" layer="21" font="vector" align="center-left">10uF</text>
 <wire x1="54.054375" y1="9.68375" x2="54.530625" y2="9.68375" width="0.127" layer="21"/>
 <wire x1="54.054375" y1="10.63625" x2="54.530625" y2="10.63625" width="0.127" layer="21"/>
 <text x="65.24625" y="46.6725" size="1.27" layer="22" font="vector" rot="MR270" align="center-left">TX</text>

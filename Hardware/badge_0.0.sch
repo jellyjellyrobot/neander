@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -12069,13 +12069,14 @@ for USB-Serial functionalities</text>
 <label x="113.03" y="68.58" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="LCD_CS" class="0">
 <segment>
 <pinref part="LCD1" gate="G$1" pin="/SCE"/>
 <wire x1="147.32" y1="68.58" x2="182.88" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="8"/>
 <wire x1="140.97" y1="52.07" x2="147.32" y2="52.07" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="52.07" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
+<label x="147.32" y="67.31" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO12/SPI_SO" class="0">
@@ -12263,7 +12264,7 @@ for USB-Serial functionalities</text>
 <label x="340.36" y="156.21" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="VREG_IN" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="P$1"/>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -12278,6 +12279,7 @@ for USB-Serial functionalities</text>
 <junction x="247.65" y="219.71"/>
 <pinref part="U$9" gate="A" pin="~SHDN"/>
 <wire x1="247.65" y1="219.71" x2="262.89" y2="219.71" width="0.1524" layer="91"/>
+<label x="247.65" y="222.25" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -12469,24 +12471,26 @@ for USB-Serial functionalities</text>
 <label x="340.36" y="148.59" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="CHG_PROG" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="PROG"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="130.81" x2="104.14" y2="130.81" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="130.81" x2="104.14" y2="123.19" width="0.1524" layer="91"/>
+<label x="104.14" y="130.81" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="CHG_STAT" class="0">
 <segment>
 <wire x1="82.55" y1="102.87" x2="33.02" y2="102.87" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="102.87" x2="33.02" y2="130.81" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="STAT"/>
 <wire x1="33.02" y1="130.81" x2="45.72" y2="130.81" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
+<label x="54.61" y="102.87" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="BATT+" class="0">
+<net name="VBAT" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="VBAT"/>
 <wire x1="45.72" y1="125.73" x2="43.18" y2="125.73" width="0.1524" layer="91"/>
@@ -12646,7 +12650,7 @@ for USB-Serial functionalities</text>
 <label x="116.84" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="LCD_BL" class="0">
 <segment>
 <pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="238.76" y1="76.2" x2="248.92" y2="76.2" width="0.1524" layer="91"/>
@@ -12674,6 +12678,7 @@ for USB-Serial functionalities</text>
 <wire x1="248.92" y1="76.2" x2="248.92" y2="73.66" width="0.1524" layer="91"/>
 <junction x="248.92" y="76.2"/>
 <wire x1="238.76" y1="76.2" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
+<label x="248.92" y="76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$22" class="0">

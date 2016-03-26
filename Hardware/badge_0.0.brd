@@ -3695,16 +3695,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="SW1" pad="P$3"/>
 <contactref element="CON1" pad="P$2"/>
 <wire x1="65.165" y1="11.58875" x2="65.0875" y2="11.58875" width="0.8128" layer="1"/>
-<polygon width="0.3048" layer="1" thermals="no">
-<vertex x="63.1825" y="11.985625"/>
-<vertex x="63.1825" y="5.87375"/>
-<vertex x="64.61125" y="5.87375"/>
-<vertex x="65.0875" y="6.35"/>
-<vertex x="65.0875" y="11.985625"/>
-</polygon>
 <wire x1="63.21" y1="4.528125" x2="63.21" y2="5.90125" width="0.6096" layer="1"/>
 <wire x1="63.21" y1="5.90125" x2="63.34125" y2="6.0325" width="0.6096" layer="1"/>
 <wire x1="68.37375" y1="8.09625" x2="64.135" y2="8.09625" width="0.8128" layer="1"/>
+<polygon width="0.3048" layer="1" isolate="0.254" thermals="no">
+<vertex x="63.1825" y="10.63625"/>
+<vertex x="63.1825" y="11.90625"/>
+<vertex x="68.58" y="11.90625"/>
+<vertex x="68.58" y="4.1275"/>
+<vertex x="63.1825" y="4.1275"/>
+<vertex x="63.1825" y="10.4775"/>
+</polygon>
 </signal>
 <signal name="CH_PD">
 <contactref element="U6" pad="CH_PD"/>

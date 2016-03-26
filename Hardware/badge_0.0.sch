@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11876,9 +11876,6 @@ for USB-Serial functionalities</text>
 </segment>
 <segment>
 <label x="116.84" y="81.28" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="U$11" gate="G$1" pin="4"/>
-<wire x1="113.03" y1="64.77" x2="113.03" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="113.03" y1="66.04" x2="115.57" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="1"/>
 <wire x1="115.57" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="66.04" x2="118.11" y2="66.04" width="0.1524" layer="91"/>
@@ -11889,7 +11886,6 @@ for USB-Serial functionalities</text>
 <junction x="118.11" y="66.04"/>
 <pinref part="U$11" gate="G$1" pin="3"/>
 <wire x1="115.57" y1="66.04" x2="115.57" y2="64.77" width="0.1524" layer="91"/>
-<junction x="115.57" y="66.04"/>
 <junction x="116.84" y="66.04"/>
 <wire x1="116.84" y1="66.04" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -11897,17 +11893,6 @@ for USB-Serial functionalities</text>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
 <wire x1="49.53" y1="59.69" x2="49.53" y2="63.5" width="0.1524" layer="91"/>
 <label x="49.53" y="63.5" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="60.96" y1="182.88" x2="71.12" y2="182.88" width="0.1524" layer="91"/>
-<label x="71.12" y="182.88" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="4"/>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="53.34" y1="182.88" x2="60.96" y2="182.88" width="0.1524" layer="91"/>
-<junction x="60.96" y="182.88"/>
-<wire x1="53.34" y1="182.88" x2="43.18" y2="182.88" width="0.1524" layer="91"/>
-<junction x="53.34" y="182.88"/>
-<label x="43.18" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11983,11 +11968,6 @@ for USB-Serial functionalities</text>
 <pinref part="J10" gate="G$1" pin="12"/>
 <wire x1="345.44" y1="168.91" x2="340.36" y2="168.91" width="0.1524" layer="91"/>
 <label x="340.36" y="168.91" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="133.35" y1="46.99" x2="133.35" y2="52.07" width="0.1524" layer="91"/>
-<label x="133.35" y="46.99" size="1.016" layer="95" rot="R270" xref="yes"/>
-<pinref part="U$8" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="8"/>
@@ -12078,6 +12058,11 @@ for USB-Serial functionalities</text>
 <junction x="53.34" y="185.42"/>
 <label x="43.18" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="4"/>
+<wire x1="113.03" y1="64.77" x2="113.03" y2="68.58" width="0.1524" layer="91"/>
+<label x="113.03" y="68.58" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -12156,35 +12141,16 @@ for USB-Serial functionalities</text>
 <pinref part="J8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<label x="133.35" y="67.31" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="U$8" gate="G$1" pin="4"/>
-<wire x1="133.35" y1="64.77" x2="133.35" y2="67.31" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="G$1" pin="5"/>
+<wire x1="113.03" y1="52.07" x2="113.03" y2="49.53" width="0.1524" layer="91"/>
+<label x="113.03" y="49.53" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
 <segment>
-<wire x1="232.41" y1="228.6" x2="232.41" y2="232.41" width="0.1524" layer="91"/>
-<label x="232.41" y="232.41" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="SW1" gate="G$1" pin="P$2"/>
-<wire x1="236.22" y1="228.6" x2="232.41" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$10" gate="G$1" pin="P$VCC"/>
 <wire x1="16.51" y1="215.9" x2="19.05" y2="215.9" width="0.1524" layer="91"/>
 <label x="16.51" y="215.9" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U4" gate="A" pin="VDD"/>
-<label x="93.98" y="128.27" size="1.016" layer="95" xref="yes"/>
-<wire x1="81.28" y1="128.27" x2="82.55" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="82.55" y1="127" x2="82.55" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="82.55" y1="128.27" x2="91.44" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="128.27" x2="93.98" y2="128.27" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="128.27" x2="91.44" y2="123.19" width="0.1524" layer="91"/>
-<junction x="91.44" y="128.27"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<junction x="82.55" y="128.27"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="REGIN"/>
@@ -12202,6 +12168,11 @@ for USB-Serial functionalities</text>
 <wire x1="118.11" y1="228.6" x2="118.11" y2="229.87" width="0.1524" layer="91"/>
 <wire x1="118.11" y1="229.87" x2="116.84" y2="229.87" width="0.1524" layer="91"/>
 <label x="116.84" y="229.87" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="53.34" y1="182.88" x2="43.18" y2="182.88" width="0.1524" layer="91"/>
+<label x="43.18" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -12835,6 +12806,30 @@ for USB-Serial functionalities</text>
 <pinref part="U$7" gate="G$1" pin="8"/>
 <wire x1="295.91" y1="63.5" x2="281.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="63.5" x2="281.94" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<wire x1="232.41" y1="228.6" x2="232.41" y2="232.41" width="0.1524" layer="91"/>
+<label x="232.41" y="232.41" size="1.016" layer="95" rot="R90" xref="yes"/>
+<pinref part="SW1" gate="G$1" pin="P$2"/>
+<wire x1="236.22" y1="228.6" x2="232.41" y2="228.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="60.96" y1="182.88" x2="71.12" y2="182.88" width="0.1524" layer="91"/>
+<label x="71.12" y="182.88" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="VDD"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="128.27" x2="82.55" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="128.27" x2="91.44" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="128.27" x2="91.44" y2="123.19" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="82.55" y1="127" x2="82.55" y2="128.27" width="0.1524" layer="91"/>
+<junction x="82.55" y="128.27"/>
+<label x="91.44" y="128.27" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

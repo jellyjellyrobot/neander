@@ -9872,6 +9872,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="J3" library="SparkFun-Connectors" deviceset="M16" device="PTH"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="M08" device=""/>
 <part name="TP1" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -9944,6 +9946,8 @@ for USB-Serial functionalities</text>
 <instance part="J3" gate="G$1" x="199.39" y="149.86" rot="MR180"/>
 <instance part="J4" gate="G$1" x="344.17" y="165.1" rot="R180"/>
 <instance part="TP1" gate="G$1" x="124.46" y="46.99"/>
+<instance part="J5" gate="G$1" x="345.44" y="222.25"/>
+<instance part="J6" gate="G$1" x="359.41" y="222.25"/>
 </instances>
 <busses>
 </busses>
@@ -10023,6 +10027,21 @@ for USB-Serial functionalities</text>
 <pinref part="J4" gate="G$1" pin="8"/>
 <wire x1="334.01" y1="154.94" x2="339.09" y2="154.94" width="0.1524" layer="91"/>
 <label x="334.01" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="350.52" y1="222.25" x2="350.52" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="364.49" y1="222.25" x2="364.49" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="364.49" y1="220.98" x2="364.49" y2="219.71" width="0.1524" layer="91"/>
+<junction x="364.49" y="220.98"/>
+<wire x1="364.49" y1="220.98" x2="368.3" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="364.49" y1="220.98" x2="350.52" y2="220.98" width="0.1524" layer="91"/>
+<junction x="350.52" y="220.98"/>
+<wire x1="350.52" y1="220.98" x2="350.52" y2="219.71" width="0.1524" layer="91"/>
+<label x="368.3" y="220.98" size="1.27" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10189,6 +10208,21 @@ for USB-Serial functionalities</text>
 <pinref part="U$11" gate="G$1" pin="5"/>
 <wire x1="113.03" y1="49.53" x2="113.03" y2="52.07" width="0.1524" layer="91"/>
 <label x="113.03" y="49.53" size="1.27" layer="95" ratio="6" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="4"/>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="350.52" y1="227.33" x2="350.52" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="226.06" x2="350.52" y2="224.79" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="226.06" x2="364.49" y2="226.06" width="0.1524" layer="91"/>
+<junction x="350.52" y="226.06"/>
+<pinref part="J6" gate="G$1" pin="4"/>
+<wire x1="364.49" y1="226.06" x2="364.49" y2="227.33" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="3"/>
+<wire x1="364.49" y1="224.79" x2="364.49" y2="226.06" width="0.1524" layer="91"/>
+<junction x="364.49" y="226.06"/>
+<wire x1="364.49" y1="226.06" x2="368.3" y2="226.06" width="0.1524" layer="91"/>
+<label x="368.3" y="226.06" size="1.27" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_CS" class="0">

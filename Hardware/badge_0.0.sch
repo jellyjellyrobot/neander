@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9874,6 +9874,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP1" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="C6" library="resistor" deviceset="C-EU" device="C0603K" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -9948,6 +9949,7 @@ for USB-Serial functionalities</text>
 <instance part="TP1" gate="G$1" x="124.46" y="46.99"/>
 <instance part="J5" gate="G$1" x="345.44" y="222.25"/>
 <instance part="J6" gate="G$1" x="359.41" y="222.25"/>
+<instance part="C6" gate="G$1" x="259.08" y="140.97" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -9973,8 +9975,12 @@ for USB-Serial functionalities</text>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="VCC"/>
-<wire x1="255.27" y1="149.86" x2="260.35" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="255.27" y1="149.86" x2="259.08" y2="149.86" width="0.1524" layer="91"/>
 <label x="255.27" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="149.86" x2="260.35" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="149.86" x2="259.08" y2="146.05" width="0.1524" layer="91"/>
+<junction x="259.08" y="149.86"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -10223,6 +10229,11 @@ for USB-Serial functionalities</text>
 <junction x="364.49" y="226.06"/>
 <wire x1="364.49" y1="226.06" x2="368.3" y2="226.06" width="0.1524" layer="91"/>
 <label x="368.3" y="226.06" size="1.27" layer="95" ratio="6" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="138.43" x2="259.08" y2="133.35" width="0.1524" layer="91"/>
+<label x="259.08" y="133.35" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_CS" class="0">

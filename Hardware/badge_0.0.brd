@@ -2115,7 +2115,7 @@ v0.0</text>
 <text x="1.5875" y="3.175" size="1.27" layer="21" font="vector" rot="R270" align="center">VCC</text>
 <text x="65.88125" y="16.98625" size="1.27" layer="21" font="vector" rot="R270" align="center">VCC</text>
 <text x="97.155" y="1.5875" size="1.651" layer="21" font="vector" ratio="31" rot="R90">-. . .- -. -.. . .-.</text>
-<text x="96.2025" y="3.81" size="1.651" layer="22" font="vector" ratio="31" rot="MR90">-..- -.-. - ..-.</text>
+<text x="97.155" y="22.86" size="1.651" layer="22" font="vector" ratio="31" rot="SMR270">-..- -.-. - ..-.</text>
 </plain>
 <libraries>
 <library name="gm2">

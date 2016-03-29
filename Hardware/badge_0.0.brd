@@ -2114,7 +2114,7 @@ v0.0</text>
 <text x="13.81125" y="2.2225" size="1.27" layer="21" font="vector" rot="R270" align="center">GND</text>
 <text x="1.5875" y="3.175" size="1.27" layer="21" font="vector" rot="R270" align="center">VCC</text>
 <text x="97.155" y="1.5875" size="1.651" layer="21" font="vector" ratio="31" rot="R90">-. . .- -. -.. . .-.</text>
-<text x="95.885" y="24.13" size="1.651" layer="22" font="vector" ratio="31" rot="SMR270" align="center">.... .- -.-. -.-
+<text x="95.885" y="24.13" size="1.651" layer="22" font="vector" ratio="31" rot="SMR270" align="center">. -..- .--. .-.. --- .. -
 . ...- . .-. -.-- - .... .. -. --.</text>
 </plain>
 <libraries>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="inch" altunit="mil"/>
+<grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -185,14 +185,14 @@ Jacob
 Jeremias</text>
 <text x="72.54875" y="37.30625" size="1.016" layer="21" font="vector" rot="R90">RESET</text>
 <text x="72.33046875" y="28.6940625" size="1.016" layer="21" font="vector" rot="R90">SELECT</text>
-<text x="2.54" y="34.13125" size="1.016" layer="21" font="vector" rot="SR270" align="center">LCD
+<text x="2.54" y="34.13125" size="1.016" layer="21" font="vector" rot="SR90" align="center">LCD
 BL</text>
 <wire x1="66.19875" y1="8.255" x2="67.46875" y2="8.255" width="0.3048" layer="21"/>
 <wire x1="66.83375" y1="8.89" x2="66.83375" y2="7.62" width="0.3048" layer="21"/>
 <wire x1="71.27875" y1="8.255" x2="72.54875" y2="8.255" width="0.3048" layer="21"/>
 <text x="63.65875" y="20.79625" size="0.6096" layer="21" font="vector" align="center">9013</text>
 <text x="64.4525" y="11.90625" size="0.6096" layer="21" font="vector" align="center">73832</text>
-<text x="66.83375" y="13.81125" size="0.6096" layer="21" font="vector" rot="R270" align="center">2x10uF</text>
+<text x="66.675" y="13.6525" size="0.6096" layer="21" font="vector" rot="R270" align="center">2x10uF</text>
 <circle x="49.450625" y="11.191875" radius="0.079375" width="0.3048" layer="21"/>
 <text x="46.355" y="13.97" size="1.016" layer="21" align="center-left">DSR</text>
 <text x="46.355" y="11.43" size="1.016" layer="21" align="center-left">DTR</text>
@@ -240,7 +240,7 @@ BL</text>
 <wire x1="67.31" y1="11.985625" x2="67.31" y2="12.461875" width="0.127" layer="21"/>
 <wire x1="66.754375" y1="15.5575" x2="67.230625" y2="15.5575" width="0.127" layer="21"/>
 <wire x1="66.754375" y1="16.51" x2="67.230625" y2="16.51" width="0.127" layer="21"/>
-<text x="64.61125" y="24.765" size="0.6096" layer="21" font="vector" align="center">10uF</text>
+<text x="64.92875" y="25.0825" size="0.6096" layer="21" font="vector" align="center">10uF</text>
 <text x="63.5" y="16.8275" size="0.6096" layer="21" font="vector" align="center">10uF</text>
 <wire x1="63.103125" y1="17.30375" x2="63.579375" y2="17.30375" width="0.127" layer="21"/>
 <wire x1="63.103125" y1="18.25625" x2="63.579375" y2="18.25625" width="0.127" layer="21"/>
@@ -254,8 +254,8 @@ BL</text>
 <wire x1="5.87375" y1="22.780625" x2="5.87375" y2="22.304375" width="0.127" layer="21"/>
 <text x="60.96" y="6.0325" size="1.016" layer="21" font="vector" align="center">POWER</text>
 <text x="36.03625" y="2.38125" size="1.016" layer="21" font="vector" align="center">POWER</text>
-<text x="17.78" y="47.46625" size="0.6096" layer="21" font="vector" rot="R90" align="center">100R</text>
-<text x="19.446875" y="2.38125" size="0.6096" layer="21" font="vector" rot="R90" align="center">100R</text>
+<text x="20.0025" y="47.46625" size="0.6096" layer="21" font="vector" rot="R90" align="center">100R</text>
+<text x="18.811875" y="2.38125" size="0.6096" layer="21" font="vector" rot="R90" align="center">100R</text>
 <text x="57.94375" y="40.79875" size="0.6096" layer="21" rot="R180" align="center">PEMH9</text>
 <wire x1="56.03875" y1="0.47625" x2="56.03875" y2="4.92125" width="0.8128" layer="22"/>
 <wire x1="56.03875" y1="4.92125" x2="56.515" y2="5.3975" width="0.8128" layer="22"/>
@@ -323,7 +323,7 @@ BL</text>
 <text x="2.38125" y="25.4" size="0.8128" layer="20" font="vector" rot="R90" align="center">MILL SLOT</text>
 <text x="26.9875" y="2.06375" size="0.6096" layer="21" font="vector" align="center-right">Power
 LED EN</text>
-<text x="61.2775" y="13.97" size="0.8128" layer="21" rot="R90" align="center">CHARGE</text>
+<text x="61.43625" y="13.97" size="0.8128" layer="21" rot="R90" align="center">CHARGE</text>
 <text x="58.89625" y="9.525" size="0.6096" layer="21" font="vector" rot="R270" align="center">1k</text>
 <text x="5.318125" y="6.50875" size="3.81" layer="29" font="vector" rot="R90">X</text>
 <text x="4.92125" y="9.763125" size="2.54" layer="29" font="vector" rot="R90">CTF</text>
@@ -345,7 +345,7 @@ LED EN</text>
 <wire x1="31.59125" y1="2.38125" x2="31.75" y2="2.2225" width="0.127" layer="21"/>
 <wire x1="60.16625" y1="13.49375" x2="60.16625" y2="13.6525" width="0.127" layer="21"/>
 <text x="91.42015625" y="28.59484375" size="0.6096" layer="21" font="vector" rot="R270" align="center">TX</text>
-<text x="89.43578125" y="27.99953125" size="0.6096" layer="21" font="vector" align="center">RX</text>
+<text x="89.31671875" y="28.63453125" size="0.6096" layer="21" font="vector" rot="R90" align="center">RX</text>
 <text x="87.45140625" y="28.67421875" size="0.6096" layer="21" font="vector" rot="R270" align="center">IO4</text>
 <text x="85.38765625" y="28.67421875" size="0.6096" layer="21" font="vector" rot="R270" align="center">IO5</text>
 <text x="83.40328125" y="28.75359375" size="0.6096" layer="21" font="vector" rot="R270" align="center">IO0</text>
@@ -2081,10 +2081,10 @@ v0.0</text>
 <wire x1="59.69" y1="45.72" x2="51.7525" y2="45.72" width="0.3048" layer="21"/>
 <wire x1="51.7525" y1="45.72" x2="51.7525" y2="43.815" width="0.3048" layer="21"/>
 <text x="53.34" y="16.51" size="1.016" layer="21" align="center-right">!SUSP</text>
-<text x="71.59625" y="18.89125" size="1.016" layer="21" font="vector" rot="R90" align="center-left">15</text>
-<text x="88.74125" y="19.20875" size="1.016" layer="21" font="vector" rot="R90" align="center-left">!4</text>
-<text x="83.66125" y="10.63625" size="1.016" layer="21" font="vector" rot="R90" align="top-center">!5</text>
-<text x="83.82" y="20.79625" size="1.016" layer="21" font="vector" rot="R90" align="top-center">!2</text>
+<text x="71.59625" y="9.525" size="1.016" layer="21" font="vector" rot="R90" align="center-left">15</text>
+<text x="88.74125" y="10.31875" size="1.016" layer="21" font="vector" rot="R90" align="center-left">!4</text>
+<text x="74.77125" y="10.63625" size="1.016" layer="21" font="vector" rot="R90" align="top-center">!5</text>
+<text x="74.6125" y="20.955" size="1.016" layer="21" font="vector" rot="R90" align="top-center">!2</text>
 <wire x1="48.895" y1="25.7175" x2="49.05375" y2="25.7175" width="0.0635" layer="22"/>
 <wire x1="49.05375" y1="25.7175" x2="49.05375" y2="25.55875" width="0.0635" layer="22"/>
 <wire x1="49.05375" y1="25.55875" x2="48.895" y2="25.55875" width="0.0635" layer="22"/>
@@ -2113,9 +2113,9 @@ v0.0</text>
 <text x="13.81125" y="47.9425" size="1.27" layer="21" font="vector" rot="R270" align="center">GND</text>
 <text x="13.81125" y="2.2225" size="1.27" layer="21" font="vector" rot="R270" align="center">GND</text>
 <text x="1.5875" y="3.175" size="1.27" layer="21" font="vector" rot="R270" align="center">VCC</text>
-<text x="65.88125" y="16.98625" size="1.27" layer="21" font="vector" rot="R270" align="center">VCC</text>
 <text x="97.155" y="1.5875" size="1.651" layer="21" font="vector" ratio="31" rot="R90">-. . .- -. -.. . .-.</text>
-<text x="97.155" y="22.86" size="1.651" layer="22" font="vector" ratio="31" rot="SMR270">-..- -.-. - ..-.</text>
+<text x="95.885" y="24.13" size="1.651" layer="22" font="vector" ratio="31" rot="SMR270" align="center">.... .- -.-. -.-
+. ...- . .-. -.-- - .... .. -. --.</text>
 </plain>
 <libraries>
 <library name="gm2">
@@ -3446,7 +3446,6 @@ at 30/07/2012 11:22:31</description>
 <wire x1="1.6" y1="13.4" x2="5.6" y2="13.4" width="0.6096" layer="21"/>
 <wire x1="-4.9" y1="8.5" x2="-4.9" y2="7.9" width="0.6096" layer="21"/>
 <wire x1="-4.9" y1="7.9" x2="1.6" y2="7.9" width="0.6096" layer="21"/>
-<text x="0" y="3" size="1.4224" layer="21" align="bottom-center">ESP - 12E</text>
 <text x="-7.7" y="-11.9" size="1.4224" layer="27">&gt;Value</text>
 <text x="-7.7" y="15.1" size="1.4224" layer="25">&gt;Name</text>
 <smd name="RESET" x="-8.3" y="5.8" dx="3" dy="1.2" layer="1"/>

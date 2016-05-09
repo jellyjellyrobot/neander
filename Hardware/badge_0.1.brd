@@ -3486,7 +3486,7 @@ Based on the following sources:
 <element name="LED1" library="led" package="SML0805" value="RED" x="60.086875" y="14.76375" rot="R90"/>
 <element name="LED2" library="led" package="SML0805" value="YELLOW" x="31.670625" y="2.38125"/>
 <element name="C1" library="SparkFun-Capacitors" package="0805-CAP" value="10uF" x="67.071875" y="13.890625" rot="R90"/>
-<element name="CON1" library="badge" package="PH_2" value="PH_2" x="67.46875" y="8.493125" smashed="yes" rot="R180"/>
+<element name="CON1" library="badge" package="PH_2" value="PH_2" x="67.46875" y="8.255" smashed="yes" rot="R180"/>
 <element name="IC1" library="silabs" package="MLP28" value="CP2102" x="52.07" y="12.620625" rot="R90">
 <attribute name="OC_FARNELL" value="9282130" x="52.07" y="12.620625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CP2102-GM" x="52.07" y="12.620625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3963,7 +3963,7 @@ Based on the following sources:
 <wire x1="76.67625" y1="15.71625" x2="76.835" y2="15.71625" width="0.3048" layer="16"/>
 <wire x1="76.835" y1="15.71625" x2="76.99375" y2="15.5575" width="0.3048" layer="16"/>
 <wire x1="74.93" y1="26.19375" x2="74.93" y2="22.70125" width="0.8128" layer="16"/>
-<wire x1="68.46875" y1="8.493125" x2="69.500625" y2="7.588125" width="0.8128" layer="1"/>
+<wire x1="68.46875" y1="8.255" x2="69.500625" y2="7.588125" width="0.8128" layer="1"/>
 <wire x1="69.500625" y1="7.588125" x2="69.85" y2="7.381875" width="0.8128" layer="1"/>
 <via x="69.69125" y="7.14375" extent="1-16" drill="0.635" shape="octagon"/>
 <polygon width="0.3048" layer="1" thermals="no">

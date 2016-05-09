@@ -6822,7 +6822,6 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="U$3" library="badge" deviceset="TOUCHSWITCH" device=""/>
 <part name="U$4" library="badge" deviceset="TOUCHSWITCH" device=""/>
 <part name="U$5" library="badge" deviceset="TOUCHSWITCH" device=""/>
-<part name="SW1" library="badge" deviceset="MK12C02" device=""/>
 <part name="U4" library="Microchip_By_element14_Batch_1" deviceset="MCP73832T-2DCI/OT" device=""/>
 <part name="U6" library="esp8266modules" deviceset="ESP12E" device="SMD"/>
 <part name="U$9" library="Microchip_By_element14_Batch_1" deviceset="MCP1824T-3302E/OT" device=""/>
@@ -6830,7 +6829,6 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="LED1" library="led" deviceset="LED" device="SML0805" value="RED"/>
 <part name="LED2" library="led" deviceset="LED" device="SML0805" value="YELLOW"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1UF-25V-10%(0805)" device="&quot;" value="10uF"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="1UF-25V-10%(0805)" device="&quot;" value="10uF"/>
 <part name="CON1" library="badge" deviceset="PH_2" device=""/>
 <part name="IC1" library="silabs" deviceset="CP210*" device="" technology="2"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M08" device="SILK_FEMALE_PTH"/>
@@ -6873,6 +6871,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="TP8" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
 <part name="TP9" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
 <part name="D1" library="diode" deviceset="MBR0520LT" device=""/>
+<part name="D2" library="diode" deviceset="MBR0520LT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6906,7 +6905,6 @@ for USB-Serial functionalities</text>
 <instance part="U$3" gate="G$1" x="57.15" y="54.61" rot="R90"/>
 <instance part="U$4" gate="G$1" x="64.77" y="54.61" rot="R90"/>
 <instance part="U$5" gate="G$1" x="87.63" y="54.61" rot="R90"/>
-<instance part="SW1" gate="G$1" x="241.3" y="227.33" rot="MR0"/>
 <instance part="U4" gate="A" x="63.5" y="130.81"/>
 <instance part="U6" gate="G$1" x="278.13" y="160.02"/>
 <instance part="U$9" gate="A" x="280.67" y="222.25"/>
@@ -6914,7 +6912,6 @@ for USB-Serial functionalities</text>
 <instance part="LED1" gate="G$1" x="83.82" y="123.19"/>
 <instance part="LED2" gate="G$1" x="228.6" y="71.12"/>
 <instance part="C1" gate="G$1" x="43.18" y="118.11"/>
-<instance part="C2" gate="G$1" x="99.06" y="120.65"/>
 <instance part="CON1" gate="G$1" x="224.79" y="214.63" rot="MR0"/>
 <instance part="IC1" gate="G$1" x="81.28" y="213.36"/>
 <instance part="J2" gate="G$1" x="132.08" y="208.28" rot="R180"/>
@@ -6960,6 +6957,7 @@ for USB-Serial functionalities</text>
 <instance part="TP8" gate="G$1" x="177.8" y="81.28"/>
 <instance part="TP9" gate="G$1" x="176.53" y="81.28"/>
 <instance part="D1" gate="G$1" x="345.44" y="53.34" rot="R270"/>
+<instance part="D2" gate="G$1" x="239.014" y="224.79"/>
 </instances>
 <busses>
 </busses>
@@ -7132,11 +7130,7 @@ for USB-Serial functionalities</text>
 <segment>
 <wire x1="99.06" y1="110.49" x2="99.06" y2="107.95" width="0.1524" layer="91"/>
 <label x="99.06" y="107.95" size="1.016" layer="95" rot="R270" xref="yes"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="118.11" x2="99.06" y2="110.49" width="0.1524" layer="91"/>
-<junction x="99.06" y="110.49"/>
 <wire x1="95.25" y1="110.49" x2="99.06" y2="110.49" width="0.1524" layer="91"/>
-<junction x="99.06" y="110.49"/>
 <wire x1="95.25" y1="101.6" x2="95.25" y2="110.49" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="3"/>
 <wire x1="87.63" y1="104.14" x2="87.63" y2="101.6" width="0.1524" layer="91"/>
@@ -7468,24 +7462,6 @@ for USB-Serial functionalities</text>
 <pinref part="U$3" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="VREG_IN" class="0">
-<segment>
-<pinref part="SW1" gate="G$1" pin="P$1"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="247.65" y1="227.33" x2="246.38" y2="227.33" width="0.1524" layer="91"/>
-<wire x1="237.49" y1="217.17" x2="237.49" y2="219.71" width="0.1524" layer="91"/>
-<wire x1="237.49" y1="219.71" x2="247.65" y2="219.71" width="0.1524" layer="91"/>
-<wire x1="247.65" y1="219.71" x2="247.65" y2="224.79" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="A" pin="VIN"/>
-<wire x1="247.65" y1="224.79" x2="247.65" y2="227.33" width="0.1524" layer="91"/>
-<wire x1="247.65" y1="224.79" x2="262.89" y2="224.79" width="0.1524" layer="91"/>
-<junction x="247.65" y="224.79"/>
-<junction x="247.65" y="219.71"/>
-<pinref part="U$9" gate="A" pin="~SHDN"/>
-<wire x1="247.65" y1="219.71" x2="262.89" y2="219.71" width="0.1524" layer="91"/>
-<label x="247.65" y="222.25" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="D-" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="P$D-"/>
@@ -7722,11 +7698,11 @@ for USB-Serial functionalities</text>
 </segment>
 <segment>
 <label x="232.41" y="224.79" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="SW1" gate="G$1" pin="P$3"/>
-<wire x1="236.22" y1="226.06" x2="232.41" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="232.41" y1="217.17" x2="232.41" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="236.474" y1="224.79" x2="232.41" y2="224.79" width="0.1524" layer="91"/>
+<wire x1="232.41" y1="217.17" x2="232.41" y2="224.79" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="P$1"/>
 <wire x1="229.87" y1="217.17" x2="232.41" y2="217.17" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="CH_PD" class="0">
@@ -8018,26 +7994,34 @@ for USB-Serial functionalities</text>
 </net>
 <net name="5V" class="0">
 <segment>
-<wire x1="232.41" y1="228.6" x2="232.41" y2="232.41" width="0.1524" layer="91"/>
-<label x="232.41" y="232.41" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="SW1" gate="G$1" pin="P$2"/>
-<wire x1="236.22" y1="228.6" x2="232.41" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="4"/>
 <wire x1="60.96" y1="182.88" x2="71.12" y2="182.88" width="0.1524" layer="91"/>
 <label x="71.12" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="VDD"/>
-<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="128.27" x2="83.82" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="128.27" x2="99.06" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="128.27" x2="99.06" y2="125.73" width="0.1524" layer="91"/>
 <label x="99.06" y="128.27" size="1.27" layer="95" xref="yes"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="83.82" y1="128.27" x2="83.82" y2="125.73" width="0.1524" layer="91"/>
 <junction x="83.82" y="128.27"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="237.49" y1="217.17" x2="237.49" y2="219.71" width="0.1524" layer="91"/>
+<wire x1="237.49" y1="219.71" x2="247.65" y2="219.71" width="0.1524" layer="91"/>
+<wire x1="247.65" y1="219.71" x2="247.65" y2="224.79" width="0.1524" layer="91"/>
+<junction x="247.65" y="219.71"/>
+<pinref part="U$9" gate="A" pin="~SHDN"/>
+<wire x1="247.65" y1="219.71" x2="262.89" y2="219.71" width="0.1524" layer="91"/>
+<label x="247.65" y="229.616" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="247.65" y1="224.79" x2="247.65" y2="229.616" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="A" pin="VIN"/>
+<wire x1="241.554" y1="224.79" x2="247.65" y2="224.79" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<junction x="247.65" y="224.79"/>
+<wire x1="247.65" y1="224.79" x2="262.89" y2="224.79" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">

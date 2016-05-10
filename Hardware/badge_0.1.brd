@@ -2060,6 +2060,8 @@ v0.1</text>
 . ...- . .-. -.-- - .... .. -. --.</text>
 <text x="66.278125" y="17.700625" size="0.6096" layer="21" font="vector" rot="R180" align="center">10uF</text>
 <text x="68.58" y="13.97" size="0.6096" layer="21" font="vector" rot="R270" align="center">10uF</text>
+<wire x1="55.40375" y1="45.323125" x2="55.40375" y2="44.45" width="0.4064" layer="21"/>
+<wire x1="59.3725" y1="3.4925" x2="60.325" y2="3.4925" width="0.4064" layer="21"/>
 </plain>
 <libraries>
 <library name="gm2">

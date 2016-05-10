@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -351,10 +351,10 @@
 <library name="badge">
 <packages>
 <package name="EVQQWN03W">
-<smd name="P$1" x="-2" y="3.4" dx="3.2" dy="1.2" layer="1" rot="R90"/>
-<smd name="P$2" x="2" y="3.4" dx="3.2" dy="1.2" layer="1" rot="R90"/>
-<smd name="P$3" x="2" y="-3.4" dx="3.2" dy="1.2" layer="1" rot="R90"/>
-<smd name="P$4" x="-2" y="-3.4" dx="3.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$1" x="-2" y="2.8" dx="2" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$2" x="2" y="2.8" dx="2" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$3" x="2" y="-2.8" dx="2" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$4" x="-2" y="-2.8" dx="2" dy="1.2" layer="1" rot="R90"/>
 <wire x1="-0.9525" y1="2.8575" x2="0.9525" y2="2.8575" width="0.127" layer="21"/>
 <wire x1="-0.9525" y1="-2.8575" x2="0.9525" y2="-2.8575" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="0.70995" width="0.127" layer="21"/>

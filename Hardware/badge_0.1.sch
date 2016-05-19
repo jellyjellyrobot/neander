@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -510,6 +510,9 @@
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
 </symbol>
+<symbol name="PIN">
+<pin name="P$1" x="-5.08" y="0" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TOUCHSWITCH">
@@ -531,6 +534,10 @@
 <deviceset name="MK12C02" prefix="SW">
 <gates>
 <gate name="G$1" symbol="MK12C02" x="0" y="0"/>
+<gate name="G$2" symbol="PIN" x="-2.54" y="-7.62" addlevel="request"/>
+<gate name="G$3" symbol="PIN" x="-2.54" y="-10.16" addlevel="request"/>
+<gate name="G$4" symbol="PIN" x="-2.54" y="-12.7" addlevel="request"/>
+<gate name="G$5" symbol="PIN" x="-2.54" y="-15.24" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="MK12C02">
@@ -538,6 +545,10 @@
 <connect gate="G$1" pin="P$1" pad="P$2"/>
 <connect gate="G$1" pin="P$2" pad="P$1"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$2" pin="P$1" pad="P$4"/>
+<connect gate="G$3" pin="P$1" pad="P$5"/>
+<connect gate="G$4" pin="P$1" pad="P$6"/>
+<connect gate="G$5" pin="P$1" pad="P$7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -567,10 +578,14 @@
 <deviceset name="PH_2" prefix="CON">
 <gates>
 <gate name="G$1" symbol="PH_2" x="0" y="0"/>
+<gate name="ANCH1" symbol="PIN" x="0" y="12.7"/>
+<gate name="ANCH2" symbol="PIN" x="0" y="-10.16"/>
 </gates>
 <devices>
 <device name="" package="PH_2">
 <connects>
+<connect gate="ANCH1" pin="P$1" pad="P$3"/>
+<connect gate="ANCH2" pin="P$1" pad="P$4"/>
 <connect gate="G$1" pin="P$1" pad="P$2"/>
 <connect gate="G$1" pin="P$2" pad="P$1"/>
 </connects>
@@ -6890,6 +6905,9 @@ in case DTR not present</text>
 <text x="43.18" y="156.21" size="1.9304" layer="91">Jumpers to be provided
 for USB-Serial functionalities</text>
 <text x="182.88" y="83.82" size="2.54" layer="91">CHECK /SCE &lt;&gt; GND</text>
+<text x="217.17" y="201.93" size="1.27" layer="91" font="vector">Connector
+anchors</text>
+<text x="271.78" y="88.9" size="1.27" layer="91" font="vector">PIN ANCHORS</text>
 </plain>
 <instances>
 <instance part="LCD1" gate="G$1" x="200.66" y="58.42"/>
@@ -6913,7 +6931,10 @@ for USB-Serial functionalities</text>
 <instance part="LED1" gate="G$1" x="83.82" y="123.19"/>
 <instance part="LED2" gate="G$1" x="228.6" y="71.12"/>
 <instance part="C1" gate="G$1" x="43.18" y="118.11"/>
-<instance part="CON1" gate="G$1" x="224.79" y="214.63" rot="MR0"/>
+<instance part="CON1" gate="G$1" x="224.79" y="214.63" smashed="yes" rot="MR0">
+<attribute name="NAME" x="232.41" y="222.25" size="1.4224" layer="94" rot="MR0"/>
+<attribute name="VALUE" x="232.41" y="209.55" size="1.4224" layer="94" rot="MR0"/>
+</instance>
 <instance part="IC1" gate="G$1" x="81.28" y="213.36"/>
 <instance part="J2" gate="G$1" x="132.08" y="208.28" rot="R180"/>
 <instance part="J1" gate="G$1" x="132.08" y="226.06" rot="R180"/>
@@ -6960,6 +6981,12 @@ for USB-Serial functionalities</text>
 <instance part="D1" gate="G$1" x="345.44" y="53.34" rot="R270"/>
 <instance part="D2" gate="G$1" x="239.014" y="224.79"/>
 <instance part="C2" gate="G$1" x="316.23" y="214.63"/>
+<instance part="CON1" gate="ANCH1" x="227.33" y="204.47" smashed="yes" rot="R180"/>
+<instance part="CON1" gate="ANCH2" x="227.33" y="201.93" smashed="yes" rot="R180"/>
+<instance part="SW2" gate="G$2" x="276.86" y="86.36"/>
+<instance part="SW2" gate="G$3" x="276.86" y="85.09"/>
+<instance part="SW2" gate="G$5" x="276.86" y="82.55"/>
+<instance part="SW2" gate="G$4" x="276.86" y="83.82"/>
 </instances>
 <busses>
 </busses>
@@ -7101,11 +7128,17 @@ for USB-Serial functionalities</text>
 <junction x="260.35" y="199.39"/>
 <pinref part="CON1" gate="G$1" pin="P$2"/>
 <wire x1="229.87" y1="214.63" x2="232.41" y2="214.63" width="0.1524" layer="91"/>
-<wire x1="232.41" y1="214.63" x2="232.41" y2="199.39" width="0.1524" layer="91"/>
+<wire x1="232.41" y1="214.63" x2="232.41" y2="204.47" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="232.41" y1="204.47" x2="232.41" y2="201.93" width="0.1524" layer="91"/>
+<wire x1="232.41" y1="201.93" x2="232.41" y2="199.39" width="0.1524" layer="91"/>
 <wire x1="306.07" y1="199.39" x2="316.23" y2="199.39" width="0.1524" layer="91"/>
 <wire x1="316.23" y1="199.39" x2="316.23" y2="212.09" width="0.1524" layer="91"/>
 <junction x="306.07" y="199.39"/>
+<pinref part="CON1" gate="ANCH1" pin="P$1"/>
+<junction x="232.41" y="204.47"/>
+<pinref part="CON1" gate="ANCH2" pin="P$1"/>
+<junction x="232.41" y="201.93"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -7273,6 +7306,21 @@ for USB-Serial functionalities</text>
 <wire x1="180.34" y1="68.58" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="78.74" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <junction x="180.34" y="68.58"/>
+</segment>
+<segment>
+<pinref part="SW2" gate="G$2" pin="P$1"/>
+<pinref part="SW2" gate="G$3" pin="P$1"/>
+<wire x1="271.78" y1="86.36" x2="271.78" y2="85.09" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="G$4" pin="P$1"/>
+<wire x1="271.78" y1="85.09" x2="271.78" y2="83.82" width="0.1524" layer="91"/>
+<junction x="271.78" y="85.09"/>
+<pinref part="SW2" gate="G$5" pin="P$1"/>
+<wire x1="271.78" y1="83.82" x2="271.78" y2="82.55" width="0.1524" layer="91"/>
+<junction x="271.78" y="83.82"/>
+<wire x1="271.78" y1="82.55" x2="271.78" y2="78.74" width="0.1524" layer="91"/>
+<junction x="271.78" y="82.55"/>
+<wire x1="271.78" y1="78.74" x2="281.94" y2="78.74" width="0.1524" layer="91"/>
+<label x="278.13" y="78.74" size="1.27" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="GPIO12/SPI_SO" class="0">

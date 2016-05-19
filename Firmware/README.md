@@ -79,3 +79,4 @@ sudo hdiutil mount ~/Documents/case-sensitive.dmg
 export PATH=/Volumes/case-sensitive/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
 
 ## xtensa-lx106-elf-gcc -I$(THISDIR)/sdk/include -L$(THISDIR)/sdk/lib
+## esptool.py -p /dev/cu.SLAB_USBtoUART write_flash 0x00000 0x00000.bin 0x40000 0x40000.bin --flash_mode dio --flash_size 32m --flash_freq 40m

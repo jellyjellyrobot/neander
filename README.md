@@ -24,3 +24,11 @@ Jacob
 Darell
 Yu Siang
 Jeremias
+
+Things that need to be done
+fix transistor layout
+position capacitors futher apart
+fix lipo connector
+bridge reset
+replace solder paste and flux
+place cp2102 after refow

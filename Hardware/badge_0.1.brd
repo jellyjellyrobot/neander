@@ -197,7 +197,7 @@ BL</text>
 <text x="48.10125" y="37.7825" size="1.016" layer="21" font="vector" align="center-left">RXD</text>
 <text x="47.9425" y="35.2425" size="1.016" layer="21" font="vector" align="center-left">DTR</text>
 <text x="47.9425" y="42.8625" size="1.016" layer="21" font="vector" align="center-left">RTS</text>
-<text x="54.76875" y="5.715" size="0.6096" layer="21" font="vector" rot="R90" align="center-left">10uF</text>
+<text x="54.76875" y="5.715" size="0.6096" layer="21" font="vector" rot="R90" align="center-left">22uF</text>
 <wire x1="54.2925" y1="6.588125" x2="54.2925" y2="7.064375" width="0.127" layer="21"/>
 <text x="92.80921875" y="5.9134375" size="1.27" layer="22" font="vector" rot="SMR270" align="center-left">TX</text>
 <text x="90.26921875" y="5.9134375" size="1.27" layer="22" font="vector" rot="SMR270" align="center-left">RX</text>
@@ -221,7 +221,7 @@ BL</text>
 <text x="75.0490625" y="46.21609375" size="1.27" layer="22" font="vector" rot="SMR270" align="center-left">GPIO14</text>
 <text x="72.5090625" y="46.21609375" size="1.27" layer="22" font="vector" rot="SMR270" align="center-left">GPIO15</text>
 <text x="69.9690625" y="46.21609375" size="1.27" layer="22" font="vector" rot="SMR270" align="center-left">GPIO16</text>
-<text x="64.92875" y="25.161875" size="0.6096" layer="21" font="vector" align="center">10uF</text>
+<text x="64.92875" y="25.161875" size="0.6096" layer="21" font="vector" align="center">22uF</text>
 <wire x1="63.103125" y1="23.33625" x2="63.579375" y2="23.33625" width="0.127" layer="21"/>
 <wire x1="63.103125" y1="24.28875" x2="63.579375" y2="24.28875" width="0.127" layer="21"/>
 <text x="48.10125" y="45.4025" size="1.016" layer="21" font="vector" align="center-left">5V</text>
@@ -2044,7 +2044,7 @@ ver. C</text>
 <text x="97.155" y="1.5875" size="1.651" layer="1" font="vector" ratio="31" rot="R90">-. . .- -. -.. . .-.</text>
 <text x="95.885" y="24.13" size="1.651" layer="16" font="vector" ratio="31" rot="SMR270" align="center">. -..- .--. .-.. --- .. -
 . ...- . .-. -.-- - .... .. -. --.</text>
-<text x="73.18375" y="42.38625" size="0.6096" layer="21" font="vector" rot="R90" align="center">10uF</text>
+<text x="73.18375" y="42.38625" size="0.6096" layer="21" font="vector" rot="R90" align="center">22uF</text>
 <text x="4.048125" y="20.081875" size="0.6096" layer="21" font="vector" rot="R270" align="center-left">12k</text>
 <text x="52.705" y="38.338125" size="0.6096" layer="21" font="vector" rot="R270" align="center-left">2x12k</text>
 <text x="35.56" y="35.9171875" size="2.1336" layer="30" font="vector" ratio="16" rot="SMR270">NUS Greyhats</text>
@@ -2052,16 +2052,19 @@ ver. C</text>
 <text x="97.155" y="1.5875" size="1.651" layer="29" font="vector" ratio="31" rot="R90">-. . .- -. -.. . .-.</text>
 <text x="95.885" y="24.13" size="1.651" layer="30" font="vector" ratio="31" rot="SMR270" align="center">. -..- .--. .-.. --- .. -
 . ...- . .-. -.-- - .... .. -. --.</text>
-<text x="66.278125" y="17.700625" size="0.6096" layer="21" font="vector" rot="R180" align="center">10uF</text>
-<text x="68.58" y="13.97" size="0.6096" layer="21" font="vector" rot="R270" align="center">10uF</text>
+<text x="66.278125" y="17.700625" size="0.6096" layer="21" font="vector" rot="R180" align="center">22uF</text>
+<text x="68.58" y="13.97" size="0.6096" layer="21" font="vector" rot="R270" align="center">22uF</text>
 <wire x1="55.40375" y1="45.323125" x2="55.40375" y2="44.45" width="0.4064" layer="21"/>
-<wire x1="59.3725" y1="3.4925" x2="60.325" y2="3.4925" width="0.4064" layer="21"/>
+<wire x1="59.055" y1="3.571875" x2="60.0075" y2="3.571875" width="0.4064" layer="21"/>
 <text x="4.048125" y="27.78125" size="0.6096" layer="21" font="vector" rot="R270" align="center-left">0.1uF</text>
 <text x="21.74875" y="10.16" size="2.032" layer="1" font="vector" ratio="14" rot="R90">Neander
 ver. C</text>
 <text x="26.19375" y="10.080625" size="1.016" layer="29" font="vector" ratio="31" rot="R90">-.-- ... / -.. 
 .--- / .---</text>
-<text x="4.048125" y="30.400625" size="0.6096" layer="21" font="vector" rot="R90" align="center">10uF</text>
+<text x="4.048125" y="30.400625" size="0.6096" layer="21" font="vector" rot="R90" align="center">22uF</text>
+<text x="73.66" y="21.669375" size="0.6096" layer="21" font="vector" rot="R270" align="center-left">12k</text>
+<text x="64.4525" y="13.335" size="0.6096" layer="21" font="vector" rot="R180" align="center">KLRV</text>
+<text x="63.579375" y="20.79625" size="0.6096" layer="21" font="vector" rot="R180" align="center">WJ*</text>
 </plain>
 <libraries>
 <library name="gm2">
@@ -3539,7 +3542,7 @@ Based on the following sources:
 <attribute name="SUPPLIER" value="INFINEON" x="54.5544375" y="39.14775" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="SparkFun-Passives" package="0805" value="12K" x="51.5858125" y="35.3615625" rot="R90"/>
-<element name="R3" library="SparkFun-Passives" package="0805" value="12K" x="51.6016875" y="38.38575" rot="R270"/>
+<element name="R3" library="SparkFun-Passives" package="0805" value="12K" x="51.5858125" y="38.465125" rot="R270"/>
 <element name="R5" library="SparkFun-Passives" package="0805" value="12K" x="74.93" y="20.716875" rot="R90"/>
 <element name="TP1" library="testpad" package="B1,27" value="TPB1,27" x="11.985625" y="25.161875" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="11.985625" y="25.161875" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -4858,12 +4861,13 @@ Based on the following sources:
 <wire x1="52.22875" y1="35.2425" x2="46.355" y2="35.2425" width="0.3048" layer="1"/>
 <contactref element="R3" pad="2"/>
 <contactref element="U1" pad="2"/>
-<wire x1="51.6016875" y1="37.48575" x2="52.705" y2="37.48575" width="0.3048" layer="1"/>
 <wire x1="52.705" y1="37.48575" x2="54.6321125" y2="37.48575" width="0.3048" layer="1"/>
 <wire x1="54.6321125" y1="37.48575" x2="55.9831875" y2="36.134675" width="0.3048" layer="1"/>
 <wire x1="52.22875" y1="35.2425" x2="52.625625" y2="35.639375" width="0.3048" layer="1"/>
 <wire x1="52.625625" y1="35.639375" x2="52.625625" y2="37.406375" width="0.3048" layer="1"/>
 <wire x1="52.625625" y1="37.406375" x2="52.705" y2="37.48575" width="0.3048" layer="1"/>
+<wire x1="52.705" y1="37.48575" x2="51.6651875" y2="37.48575" width="0.3048" layer="1"/>
+<wire x1="51.6651875" y1="37.48575" x2="51.5858125" y2="37.565125" width="0.3048" layer="1"/>
 </signal>
 <signal name="AUTO_RTS">
 <contactref element="JP1" pad="6"/>
@@ -4872,10 +4876,7 @@ Based on the following sources:
 <wire x1="55.8244375" y1="40.08755" x2="53.74005" y2="40.08755" width="0.3048" layer="1"/>
 <wire x1="53.74005" y1="40.08755" x2="53.578125" y2="39.925625" width="0.3048" layer="1"/>
 <wire x1="53.578125" y1="39.925625" x2="52.705" y2="39.925625" width="0.3048" layer="1"/>
-<wire x1="52.705" y1="39.925625" x2="52.3875" y2="40.243125" width="0.3048" layer="1"/>
-<wire x1="52.3875" y1="40.243125" x2="50.879375" y2="40.243125" width="0.3048" layer="1"/>
-<wire x1="50.879375" y1="40.243125" x2="50.403125" y2="39.766875" width="0.3048" layer="1"/>
-<wire x1="50.403125" y1="39.766875" x2="50.403125" y2="39.0525" width="0.3048" layer="1"/>
+<wire x1="50.403125" y1="39.925625" x2="50.403125" y2="39.0525" width="0.3048" layer="1"/>
 <wire x1="46.355" y1="42.8625" x2="48.10125" y2="42.8625" width="0.3048" layer="16"/>
 <wire x1="48.10125" y1="42.8625" x2="49.291875" y2="41.671875" width="0.3048" layer="16"/>
 <wire x1="49.291875" y1="41.671875" x2="49.291875" y2="39.37" width="0.3048" layer="16"/>
@@ -4885,6 +4886,9 @@ Based on the following sources:
 <wire x1="50.403125" y1="39.0525" x2="50.403125" y2="36.67125" width="0.3048" layer="1"/>
 <wire x1="51.5858125" y1="36.2615625" x2="50.8128125" y2="36.2615625" width="0.3048" layer="1"/>
 <wire x1="50.8128125" y1="36.2615625" x2="50.403125" y2="36.67125" width="0.3048" layer="1"/>
+<wire x1="52.705" y1="39.925625" x2="52.308125" y2="40.3225" width="0.3048" layer="1"/>
+<wire x1="52.308125" y1="40.3225" x2="50.8" y2="40.3225" width="0.3048" layer="1"/>
+<wire x1="50.8" y1="40.3225" x2="50.403125" y2="39.925625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC1" pad="M"/>
@@ -5072,7 +5076,7 @@ Based on the following sources:
 <contactref element="U2" pad="1"/>
 <contactref element="R3" pad="1"/>
 <wire x1="55.8244375" y1="38.20795" x2="52.6794875" y2="38.20795" width="0.3048" layer="1"/>
-<wire x1="52.6794875" y1="38.20795" x2="51.6016875" y2="39.28575" width="0.3048" layer="1"/>
+<wire x1="52.6794875" y1="38.20795" x2="51.5858125" y2="39.365125" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <errors>

@@ -1171,7 +1171,7 @@ LED EN</text>
 <rectangle x1="18.494375" y1="29.606875" x2="18.653125" y2="29.6465625" layer="16" rot="R270"/>
 <rectangle x1="18.494375" y1="29.6465625" x2="18.57375" y2="29.68625" layer="16" rot="R270"/>
 <rectangle x1="18.47453125" y1="29.66640625" x2="18.51421875" y2="29.70609375" layer="16" rot="R270"/>
-<text x="21.74875" y="10.16" size="2.032" layer="29" font="vector" ratio="14" rot="R90">FeTChX
+<text x="21.74875" y="10.16" size="2.032" layer="29" font="vector" ratio="14" rot="R90">Neander
 ver. C</text>
 <rectangle x1="30.876875" y1="25.479375" x2="34.76625" y2="25.5190625" layer="30" rot="R270"/>
 <rectangle x1="30.57921875" y1="25.26109375" x2="34.98453125" y2="25.30078125" layer="30" rot="R270"/>
@@ -2057,7 +2057,7 @@ ver. C</text>
 <wire x1="55.40375" y1="45.323125" x2="55.40375" y2="44.45" width="0.4064" layer="21"/>
 <wire x1="59.3725" y1="3.4925" x2="60.325" y2="3.4925" width="0.4064" layer="21"/>
 <text x="4.048125" y="27.78125" size="0.6096" layer="21" font="vector" rot="R270" align="center-left">0.1uF</text>
-<text x="21.74875" y="10.16" size="2.032" layer="1" font="vector" ratio="14" rot="R90">FeTChX
+<text x="21.74875" y="10.16" size="2.032" layer="1" font="vector" ratio="14" rot="R90">Neander
 ver. C</text>
 <text x="26.19375" y="10.080625" size="1.016" layer="29" font="vector" ratio="31" rot="R90">-.-- ... / -.. 
 .--- / .---</text>

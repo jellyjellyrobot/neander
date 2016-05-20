@@ -3493,7 +3493,7 @@ Based on the following sources:
 <element name="J1" library="SparkFun-Connectors" package="1X04" value="" x="54.9275" y="24.13" rot="R270">
 <attribute name="PROD_ID" value="CONN-09696" x="54.9275" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C3" library="SparkFun-Capacitors" package="0805-CAP" value="10uF" x="53.6575" y="6.82625" rot="R270"/>
+<element name="C3" library="SparkFun-Capacitors" package="0805-CAP" value="10uF" x="53.736875" y="6.746875" rot="R270"/>
 <element name="LED3" library="led" package="SML0805" value="" x="20.0025" y="6.19125"/>
 <element name="LED4" library="led" package="SML0805" value="" x="25.003125" y="6.19125"/>
 <element name="LED5" library="led" package="SML0805" value="" x="33.02" y="6.19125"/>
@@ -3785,7 +3785,7 @@ Based on the following sources:
 <wire x1="51.57" y1="10.320625" x2="51.57" y2="12.120625" width="0.3048" layer="1"/>
 <wire x1="51.57" y1="12.120625" x2="52.07" y2="12.620625" width="0.3048" layer="1"/>
 <wire x1="51.57" y1="10.320625" x2="51.57" y2="9.50125" width="0.3048" layer="1"/>
-<wire x1="51.57" y1="9.50125" x2="51.27625" y2="9.2075" width="0.3048" layer="1"/>
+<wire x1="51.57" y1="9.50125" x2="51.1175" y2="8.969375" width="0.3048" layer="1"/>
 <contactref element="U$14" pad="3"/>
 <polygon width="0.3048" layer="1" isolate="0.127" thermals="no">
 <vertex x="58.658125" y="15.795625"/>
@@ -4020,10 +4020,10 @@ Based on the following sources:
 <contactref element="C2" pad="2"/>
 <wire x1="51.44" y1="4.3625" x2="51.44" y2="5.4025" width="0.4064" layer="1"/>
 <wire x1="51.44" y1="5.4025" x2="51.96375" y2="5.92625" width="0.4064" layer="1"/>
-<wire x1="51.27625" y1="9.2075" x2="51.27625" y2="6.61375" width="0.3048" layer="1"/>
-<wire x1="51.27625" y1="6.61375" x2="51.96375" y2="5.92625" width="0.3048" layer="1"/>
-<wire x1="53.6575" y1="5.92625" x2="51.96375" y2="5.92625" width="0.8128" layer="1"/>
-<wire x1="53.6575" y1="5.92625" x2="54.6625" y2="5.92625" width="0.8128" layer="1"/>
+<wire x1="51.1175" y1="8.969375" x2="51.1175" y2="6.375625" width="0.3048" layer="1"/>
+<wire x1="51.1175" y1="6.375625" x2="51.96375" y2="5.92625" width="0.3048" layer="1"/>
+<wire x1="53.736875" y1="5.846875" x2="51.96375" y2="5.92625" width="0.8128" layer="1"/>
+<wire x1="53.736875" y1="5.846875" x2="54.6625" y2="5.92625" width="0.8128" layer="1"/>
 <wire x1="54.6625" y1="5.92625" x2="55.245" y2="6.50875" width="0.8128" layer="1"/>
 <wire x1="5.23875" y1="31.141875" x2="5.23875" y2="32.385" width="0.8128" layer="1"/>
 <wire x1="5.23875" y1="32.385" x2="6.0325" y2="33.17875" width="0.8128" layer="1"/>
@@ -4314,25 +4314,24 @@ Based on the following sources:
 <contactref element="IC1" pad="5"/>
 <wire x1="49.49" y1="4.3625" x2="49.49" y2="5.675" width="0.3048" layer="1"/>
 <via x="49.68875" y="5.87375" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="52.54625" y="8.73125" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="52.54625" y1="8.73125" x2="52.54625" y2="9.8425" width="0.3048" layer="1"/>
+<via x="52.54625" y="8.651875" extent="1-16" drill="0.3048" shape="octagon" alwaysstop="yes"/>
+<wire x1="52.54625" y1="8.651875" x2="52.54625" y2="9.8425" width="0.3048" layer="1"/>
 <wire x1="52.57" y1="10.320625" x2="52.57" y2="9.86625" width="0.3048" layer="1"/>
 <wire x1="52.57" y1="9.86625" x2="52.54625" y2="9.8425" width="0.3048" layer="1"/>
-<wire x1="49.68875" y1="5.87375" x2="52.54625" y2="8.73125" width="0.3048" layer="16"/>
+<wire x1="49.68875" y1="5.87375" x2="52.54625" y2="8.651875" width="0.3048" layer="16"/>
 <wire x1="49.49" y1="5.675" x2="49.68875" y2="5.87375" width="0.3048" layer="1"/>
 </signal>
 <signal name="D+">
 <contactref element="U$10" pad="P$D+"/>
 <contactref element="IC1" pad="4"/>
 <wire x1="52.07" y1="10.320625" x2="52.07" y2="9.2075" width="0.3048" layer="1"/>
-<wire x1="52.07" y1="9.2075" x2="51.91125" y2="9.04875" width="0.3048" layer="1"/>
-<via x="52.07" y="7.3025" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="52.07" y1="9.2075" x2="51.831875" y2="8.969375" width="0.3048" layer="1"/>
+<via x="51.831875" y="7.064375" extent="1-16" drill="0.3048" shape="octagon" alwaysstop="yes"/>
 <via x="50.64125" y="5.87375" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="50.165" y1="5.3975" x2="50.165" y2="4.2875" width="0.3048" layer="1"/>
 <wire x1="50.165" y1="4.2875" x2="50.14" y2="4.3625" width="0.3048" layer="1"/>
-<wire x1="51.91125" y1="9.04875" x2="51.91125" y2="7.46125" width="0.3048" layer="1"/>
-<wire x1="51.91125" y1="7.46125" x2="52.07" y2="7.3025" width="0.3048" layer="1"/>
-<wire x1="52.07" y1="7.3025" x2="50.64125" y2="5.87375" width="0.3048" layer="16"/>
+<wire x1="51.831875" y1="8.969375" x2="51.831875" y2="7.064375" width="0.3048" layer="1"/>
+<wire x1="51.831875" y1="7.064375" x2="50.64125" y2="5.87375" width="0.3048" layer="16"/>
 <wire x1="50.64125" y1="5.87375" x2="50.165" y2="5.3975" width="0.3048" layer="1"/>
 </signal>
 <signal name="ID">
@@ -4815,8 +4814,8 @@ Based on the following sources:
 <contactref element="IC1" pad="6"/>
 <contactref element="C3" pad="1"/>
 <wire x1="53.07" y1="10.320625" x2="53.07" y2="9.4775" width="0.3048" layer="1"/>
-<wire x1="53.07" y1="9.4775" x2="53.6575" y2="8.89" width="0.3048" layer="1"/>
-<wire x1="53.6575" y1="8.89" x2="53.6575" y2="7.72625" width="0.3048" layer="1"/>
+<wire x1="53.07" y1="9.4775" x2="53.736875" y2="8.89" width="0.3048" layer="1"/>
+<wire x1="53.736875" y1="8.89" x2="53.736875" y2="7.646875" width="0.3048" layer="1"/>
 </signal>
 <signal name="LCD_BL">
 <contactref element="LED8" pad="A"/>

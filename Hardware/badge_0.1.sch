@@ -833,28 +833,28 @@ at 30/07/2012 11:22:31</description>
 <wire x1="-4.9" y1="7.9" x2="1.6" y2="7.9" width="0.6096" layer="21"/>
 <text x="-7.7" y="-11.9" size="1.4224" layer="27">&gt;Value</text>
 <text x="-7.7" y="15.1" size="1.4224" layer="25">&gt;Name</text>
-<smd name="RESET" x="-8.3" y="5.8" dx="3" dy="1.2" layer="1"/>
-<smd name="ADC" x="-8.3" y="3.8" dx="3" dy="1.2" layer="1"/>
-<smd name="CH_PD" x="-8.3" y="1.8" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO16" x="-8.3" y="-0.2" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO14" x="-8.3" y="-2.2" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO12" x="-8.3" y="-4.2" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO13" x="-8.3" y="-6.2" dx="3" dy="1.2" layer="1"/>
-<smd name="VCC" x="-8.3" y="-8.2" dx="3" dy="1.2" layer="1"/>
-<smd name="TXD0" x="8.1" y="5.8" dx="3" dy="1.2" layer="1"/>
-<smd name="RXD0" x="8.1" y="3.8" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO5" x="8.1" y="-0.2" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO4" x="8.1" y="1.8" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO0" x="8.1" y="-2.2" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO2" x="8.1" y="-4.2" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO15" x="8.1" y="-6.2" dx="3" dy="1.2" layer="1"/>
-<smd name="GND" x="8.1" y="-8.2" dx="3" dy="1.2" layer="1"/>
-<smd name="MOSI" x="3.2" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
-<smd name="GPIO10" x="1.2" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
-<smd name="GPIO9" x="-0.8" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
-<smd name="MISO" x="-2.8" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
-<smd name="CS0" x="-4.8" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
-<smd name="SCLK" x="5.2" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="RESET" x="-7.9" y="5.8" dx="2.25" dy="1.2" layer="1"/>
+<smd name="ADC" x="-7.9" y="3.8" dx="2.25" dy="1.2" layer="1"/>
+<smd name="CH_PD" x="-7.9" y="1.8" dx="2.25" dy="1.2" layer="1"/>
+<smd name="GPIO16" x="-7.9" y="-0.2" dx="2.25" dy="1.2" layer="1"/>
+<smd name="GPIO14" x="-7.9" y="-2.2" dx="2.25" dy="1.2" layer="1"/>
+<smd name="GPIO12" x="-7.9" y="-4.2" dx="2.25" dy="1.2" layer="1"/>
+<smd name="GPIO13" x="-7.9" y="-6.2" dx="2.25" dy="1.2" layer="1"/>
+<smd name="VCC" x="-7.9" y="-8.2" dx="2.25" dy="1.2" layer="1"/>
+<smd name="TXD0" x="7.7" y="5.8" dx="2.25" dy="1.2" layer="1"/>
+<smd name="RXD0" x="7.7" y="3.8" dx="2.25" dy="1.2" layer="1"/>
+<smd name="GPIO5" x="7.7" y="-0.2" dx="2.25" dy="1.2" layer="1"/>
+<smd name="GPIO4" x="7.7" y="1.8" dx="2.25" dy="1.2" layer="1"/>
+<smd name="GPIO0" x="7.7" y="-2.2" dx="2.25" dy="1.2" layer="1"/>
+<smd name="GPIO2" x="7.7" y="-4.2" dx="2.25" dy="1.2" layer="1"/>
+<smd name="GPIO15" x="7.7" y="-6.2" dx="2.25" dy="1.2" layer="1"/>
+<smd name="GND" x="7.7" y="-8.2" dx="2.25" dy="1.2" layer="1"/>
+<smd name="MOSI" x="3.2" y="-9.9" dx="2.25" dy="1.2" layer="1" rot="R90"/>
+<smd name="GPIO10" x="1.2" y="-9.9" dx="2.25" dy="1.2" layer="1" rot="R90"/>
+<smd name="GPIO9" x="-0.8" y="-9.9" dx="2.25" dy="1.2" layer="1" rot="R90"/>
+<smd name="MISO" x="-2.8" y="-9.9" dx="2.25" dy="1.2" layer="1" rot="R90"/>
+<smd name="CS0" x="-4.8" y="-9.9" dx="2.25" dy="1.2" layer="1" rot="R90"/>
+<smd name="SCLK" x="5.2" y="-9.9" dx="2.25" dy="1.2" layer="1" rot="R90"/>
 <wire x1="-5.8" y1="-9.8" x2="-8.1" y2="-9.8" width="0.127" layer="21"/>
 <wire x1="7.9" y1="-9.8" x2="6.2" y2="-9.8" width="0.127" layer="21"/>
 </package>

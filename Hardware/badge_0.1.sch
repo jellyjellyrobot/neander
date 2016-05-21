@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7693,6 +7693,7 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="JP2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device="JELLY" value="JUMPER-PAD-2-NOJELLY"/>
 <part name="JP3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device="JELLY" value="JUMPER-PAD-2-NOJELLY"/>
 <part name="JP4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device="JELLY" value="JUMPER-PAD-2-NOJELLY"/>
+<part name="JP5" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device="JELLY" value="JUMPER-PAD-2-NOJELLY"/>
 </parts>
 <sheets>
 <sheet>
@@ -7777,7 +7778,7 @@ anchors</text>
 <instance part="TP7" gate="G$1" x="179.07" y="81.28"/>
 <instance part="TP8" gate="G$1" x="177.8" y="81.28"/>
 <instance part="TP9" gate="G$1" x="176.53" y="81.28"/>
-<instance part="D1" gate="G$1" x="355.6" y="92.71" rot="R270"/>
+<instance part="D1" gate="G$1" x="355.6" y="86.36" rot="R270"/>
 <instance part="D2" gate="G$1" x="239.014" y="224.79"/>
 <instance part="C2" gate="G$1" x="316.23" y="214.63"/>
 <instance part="CON1" gate="ANCH1" x="227.33" y="204.47" smashed="yes" rot="R180"/>
@@ -7795,6 +7796,7 @@ anchors</text>
 <instance part="JP2" gate="G$1" x="154.94" y="148.59" rot="R90"/>
 <instance part="JP3" gate="G$1" x="166.37" y="148.59" rot="R90"/>
 <instance part="JP4" gate="G$1" x="124.46" y="148.59" rot="R90"/>
+<instance part="JP5" gate="G$1" x="355.6" y="99.06" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8445,12 +8447,16 @@ anchors</text>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="P$6"/>
-<wire x1="358.14" y1="104.14" x2="355.6" y2="104.14" width="0.1524" layer="91"/>
 <label x="353.06" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="358.14" y1="104.14" x2="355.6" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="2"/>
 <wire x1="355.6" y1="104.14" x2="353.06" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="355.6" y1="104.14" x2="355.6" y2="95.25" width="0.1524" layer="91"/>
 <junction x="355.6" y="104.14"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="355.6" y1="93.98" x2="355.6" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="92.71" x2="355.6" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="104.14" x2="355.6" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC" class="0">
@@ -8478,7 +8484,7 @@ anchors</text>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="355.6" y1="90.17" x2="355.6" y2="74.93" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="83.82" x2="355.6" y2="74.93" width="0.1524" layer="91"/>
 <label x="355.6" y="74.93" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>

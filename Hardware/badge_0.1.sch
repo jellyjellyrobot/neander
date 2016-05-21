@@ -6821,7 +6821,6 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="J6" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="1UF-25V-10%(0805)" device="&quot;" value="10uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="1UF-25V-10%(0805)" device="&quot;" value="100nF"/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="12K"/>
 <part name="U1" library="badge" deviceset="SMBT2222A" device=""/>
 <part name="U2" library="badge" deviceset="SMBT2222A" device=""/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="12K"/>
@@ -6860,6 +6859,8 @@ for USB-Serial functionalities</text>
 <text x="217.17" y="201.93" size="1.27" layer="91" font="vector">Connector
 anchors</text>
 <text x="271.78" y="88.9" size="1.27" layer="91" font="vector">PIN ANCHORS</text>
+<text x="148.59" y="62.23" size="1.778" layer="91" align="center">10K
+array</text>
 </plain>
 <instances>
 <instance part="LCD1" gate="G$1" x="200.66" y="58.42"/>
@@ -6914,7 +6915,6 @@ anchors</text>
 <instance part="J6" gate="G$1" x="359.41" y="222.25"/>
 <instance part="C6" gate="G$1" x="259.08" y="140.97" rot="R180"/>
 <instance part="C7" gate="G$1" x="148.59" y="43.18"/>
-<instance part="R1" gate="G$1" x="148.59" y="62.23" rot="R90"/>
 <instance part="U1" gate="A" x="342.9" y="87.63"/>
 <instance part="U2" gate="A" x="342.9" y="67.31" rot="MR180"/>
 <instance part="R2" gate="G$1" x="332.74" y="87.63" rot="R180"/>
@@ -7041,7 +7041,6 @@ anchors</text>
 <label x="368.3" y="220.98" size="1.27" layer="95" ratio="6" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="148.59" y1="71.12" x2="148.59" y2="67.31" width="0.1524" layer="91"/>
 <label x="148.59" y="71.12" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -7576,7 +7575,6 @@ anchors</text>
 <label x="120.65" y="49.53" size="1.4224" layer="95" rot="R270" xref="yes"/>
 <pinref part="U$11" gate="G$1" pin="8"/>
 <wire x1="120.65" y1="52.07" x2="120.65" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="120.65" y1="50.8" x2="120.65" y2="49.53" width="0.1524" layer="91"/>
 <wire x1="148.59" y1="57.15" x2="148.59" y2="53.34" width="0.1524" layer="91"/>

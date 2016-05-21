@@ -8996,14 +8996,11 @@ anchors</text>
 <approved hash="104,1,81.28,128.27,U4,VDD,5V,,,"/>
 <approved hash="104,1,63.5,220.98,IC1,VDD,N$20,,,"/>
 <approved hash="104,1,63.5,203.2,IC1,GND,N$5,,,"/>
-<approved hash="106,1,19.05,208.28,ID,,,,,"/>
 <approved hash="106,1,63.5,203.2,N$5,,,,,"/>
 <approved hash="208,1,171.45,53.34,VCC,sup,,,,"/>
 <approved hash="208,1,298.45,224.79,VCC,out,,,,"/>
 <approved hash="208,1,321.31,229.87,VCC,sup,,,,"/>
-<approved hash="113,1,288.17,150.156,U6,,,,,"/>
 <approved hash="113,1,130.217,205.545,J2,,,,,"/>
-<approved hash="113,1,130.217,223.325,J1,,,,,"/>
 <approved hash="113,1,296.232,69.85,LED3,,,,,"/>
 <approved hash="113,1,249.242,69.85,LED4,,,,,"/>
 <approved hash="113,1,239.082,69.85,LED5,,,,,"/>

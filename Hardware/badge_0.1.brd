@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -197,8 +197,7 @@ BL</text>
 <text x="51.435" y="37.7825" size="1.016" layer="21" font="vector" align="center-left">RXD</text>
 <text x="51.435" y="35.2425" size="1.016" layer="21" font="vector" align="center-left">DTR</text>
 <text x="51.435" y="42.8625" size="1.016" layer="21" font="vector" align="center-left">RTS</text>
-<text x="55.800625" y="5.23875" size="0.6096" layer="21" font="vector" rot="R90" align="center-left">22uF</text>
-<wire x1="56.8325" y1="9.2075" x2="56.8325" y2="9.68375" width="0.127" layer="21"/>
+<text x="55.483125" y="7.381875" size="0.6096" layer="21" font="vector" rot="R90" align="center-left">22uF</text>
 <text x="92.80921875" y="5.9134375" size="1.27" layer="22" font="vector" rot="SMR270" align="center-left">TX</text>
 <text x="90.26921875" y="5.9134375" size="1.27" layer="22" font="vector" rot="SMR270" align="center-left">RX</text>
 <text x="54.70921875" y="46.2359375" size="1.27" layer="22" font="vector" rot="SMR270" align="center-left">GND</text>
@@ -3876,10 +3875,10 @@ Based on the following sources:
 <wire x1="52.86375" y1="20.32" x2="52.86375" y2="17.859375" width="0.8128" layer="16"/>
 <wire x1="52.86375" y1="17.859375" x2="52.86375" y2="16.1925" width="0.8128" layer="16"/>
 <wire x1="52.86375" y1="16.1925" x2="55.959375" y2="13.096875" width="0.8128" layer="16"/>
-<via x="55.959375" y="8.73125" extent="1-16" drill="0.4064" diameter="0.8128" shape="octagon"/>
-<wire x1="55.959375" y1="9.68375" x2="55.959375" y2="8.73125" width="0.8128" layer="16"/>
-<wire x1="55.959375" y1="8.73125" x2="55.959375" y2="9.68375" width="0.8128" layer="1"/>
-<via x="55.959375" y="9.68375" extent="1-16" drill="0.4064" diameter="0.8128" shape="octagon"/>
+<via x="55.959375" y="9.525" extent="1-16" drill="0.4064" diameter="0.8128" shape="octagon"/>
+<wire x1="55.959375" y1="10.4775" x2="55.959375" y2="9.525" width="0.8128" layer="16"/>
+<wire x1="55.959375" y1="9.525" x2="55.959375" y2="10.4775" width="0.8128" layer="1"/>
+<via x="55.959375" y="10.4775" extent="1-16" drill="0.4064" diameter="0.8128" shape="octagon"/>
 <via x="52.86375" y="20.32" extent="1-16" drill="0.4064" diameter="0.8128" shape="octagon"/>
 <via x="52.86375" y="17.859375" extent="1-16" drill="0.4064" diameter="0.8128" shape="octagon"/>
 <wire x1="52.86375" y1="20.32" x2="52.86375" y2="17.859375" width="0.8128" layer="1"/>
@@ -4028,7 +4027,7 @@ Based on the following sources:
 <wire x1="73.81875" y1="41.195625" x2="73.81875" y2="41.9275" width="0.8128" layer="1"/>
 <wire x1="73.81875" y1="41.9275" x2="74.3775" y2="42.48625" width="0.8128" layer="1"/>
 <wire x1="55.959375" y1="13.096875" x2="55.959375" y2="11.7475" width="0.8128" layer="16"/>
-<wire x1="55.959375" y1="11.7475" x2="55.959375" y2="9.68375" width="0.8128" layer="16"/>
+<wire x1="55.959375" y1="11.7475" x2="55.959375" y2="10.4775" width="0.8128" layer="16"/>
 <wire x1="52.86375" y1="20.32" x2="54.213125" y2="21.669375" width="0.8128" layer="1"/>
 <wire x1="54.213125" y1="21.669375" x2="55.483125" y2="21.669375" width="0.8128" layer="1"/>
 <wire x1="61.595" y1="34.44875" x2="61.595" y2="24.13" width="0.8128" layer="16"/>
@@ -4054,22 +4053,21 @@ Based on the following sources:
 <wire x1="51.8875" y1="11.073125" x2="51.8875" y2="9.263125" width="0.3048" layer="1"/>
 <wire x1="51.59375" y1="8.969375" x2="51.59375" y2="8.5725" width="0.3048" layer="1"/>
 <via x="51.59375" y="8.5725" extent="1-16" drill="0.4064" shape="octagon"/>
-<wire x1="51.59375" y1="8.5725" x2="51.59375" y2="8.255" width="0.3048" layer="16"/>
-<wire x1="51.59375" y1="8.255" x2="51.7525" y2="8.09625" width="0.3048" layer="16"/>
-<wire x1="55.88" y1="8.651875" x2="55.959375" y2="8.73125" width="0.3048" layer="16"/>
+<wire x1="55.88" y1="9.445625" x2="55.959375" y2="9.525" width="0.3048" layer="16"/>
 <wire x1="51.8875" y1="11.073125" x2="51.8875" y2="12.914375" width="0.3048" layer="1"/>
 <wire x1="51.8875" y1="12.914375" x2="52.04625" y2="13.073125" width="0.3048" layer="1"/>
-<wire x1="55.959375" y1="8.73125" x2="55.959375" y2="8.255" width="0.8128" layer="1"/>
-<wire x1="55.959375" y1="8.255" x2="55.376875" y2="7.6725" width="0.8128" layer="1"/>
+<wire x1="55.959375" y1="9.525" x2="55.959375" y2="9.04875" width="0.8128" layer="1"/>
 <wire x1="54.371875" y1="7.6725" x2="55.376875" y2="7.6725" width="0.8128" layer="1"/>
 <wire x1="54.371875" y1="7.6725" x2="54.371875" y2="6.50875" width="0.8128" layer="1"/>
 <wire x1="54.371875" y1="6.50875" x2="53.18125" y2="5.318125" width="0.8128" layer="1"/>
 <wire x1="53.18125" y1="5.318125" x2="53.18125" y2="4.841875" width="0.8128" layer="1"/>
 <wire x1="52.948125" y1="4.3625" x2="52.948125" y2="4.60875" width="0.3048" layer="1"/>
 <wire x1="52.948125" y1="4.60875" x2="53.18125" y2="4.841875" width="0.3048" layer="1"/>
-<wire x1="51.7525" y1="8.09625" x2="55.324375" y2="8.09625" width="0.3048" layer="16"/>
-<wire x1="55.324375" y1="8.09625" x2="55.959375" y2="8.73125" width="0.3048" layer="16"/>
 <wire x1="51.59375" y1="8.969375" x2="51.8875" y2="9.263125" width="0.3048" layer="1"/>
+<wire x1="55.376875" y1="7.6725" x2="55.959375" y2="8.255" width="0.8128" layer="1"/>
+<wire x1="55.959375" y1="8.255" x2="55.959375" y2="9.525" width="0.8128" layer="1"/>
+<wire x1="51.59375" y1="8.5725" x2="55.006875" y2="8.5725" width="0.3048" layer="16"/>
+<wire x1="55.006875" y1="8.5725" x2="55.959375" y2="9.525" width="0.3048" layer="16"/>
 </signal>
 <signal name="GPIO12/SPI_SO">
 <contactref element="LCD1" pad="4"/>
@@ -4208,8 +4206,7 @@ Based on the following sources:
 <wire x1="36.98875" y1="43.18" x2="36.98875" y2="40.401875" width="0.8128" layer="16"/>
 <wire x1="36.98875" y1="40.401875" x2="38.89375" y2="38.496875" width="0.8128" layer="16"/>
 <wire x1="52.943125" y1="24.209375" x2="55.483125" y2="24.209375" width="0.8128" layer="16"/>
-<wire x1="49.8475" y1="6.270625" x2="49.8475" y2="9.604375" width="0.8128" layer="16"/>
-<wire x1="49.8475" y1="9.604375" x2="49.8475" y2="11.27125" width="0.8128" layer="16"/>
+<wire x1="49.8475" y1="6.270625" x2="49.8475" y2="11.27125" width="0.8128" layer="16"/>
 <wire x1="49.8475" y1="11.27125" x2="49.8475" y2="12.3825" width="0.8128" layer="16"/>
 <wire x1="49.8475" y1="12.3825" x2="51.59375" y2="14.12875" width="0.8128" layer="16"/>
 <wire x1="50.348125" y1="4.3625" x2="50.348125" y2="4.65875" width="0.3048" layer="1"/>
@@ -4217,7 +4214,6 @@ Based on the following sources:
 <wire x1="49.8475" y1="6.270625" x2="49.8475" y2="5.715" width="0.8128" layer="1"/>
 <wire x1="49.8475" y1="5.715" x2="50.165" y2="5.3975" width="0.8128" layer="1"/>
 <wire x1="50.165" y1="5.3975" x2="50.165" y2="4.841875" width="0.8128" layer="1"/>
-<wire x1="50.165" y1="9.286875" x2="49.8475" y2="9.604375" width="0.3048" layer="16"/>
 <contactref element="J7" pad="3"/>
 <contactref element="JP4" pad="1"/>
 <wire x1="36.98875" y1="43.18" x2="39.21125" y2="45.4025" width="0.8128" layer="16"/>
@@ -4818,7 +4814,6 @@ Based on the following sources:
 <signal name="N$20">
 <contactref element="IC1" pad="6"/>
 <contactref element="C3" pad="1"/>
-<wire x1="54.371875" y1="7.858125" x2="54.371875" y2="9.4725" width="0.3048" layer="1"/>
 <wire x1="53.3875" y1="11.073125" x2="53.3875" y2="10.27125" width="0.3048" layer="1"/>
 <wire x1="53.3875" y1="10.27125" x2="54.18625" y2="9.4725" width="0.3048" layer="1"/>
 <wire x1="54.371875" y1="9.4725" x2="54.18625" y2="9.4725" width="0.3048" layer="1"/>
@@ -5249,18 +5244,18 @@ Based on the following sources:
 <approved hash="18,29,50576c41cf227111"/>
 <approved hash="18,29,7e90f3c30fa6cd82"/>
 <approved hash="18,29,7e666084d1e182f3"/>
-<approved hash="18,29,e65ad4ff8ffe7d8b"/>
+<approved hash="18,29,eee1136b07650fb0"/>
 <approved hash="18,29,0fbff235e4230fb0"/>
 <approved hash="18,29,071837bd6cbc7d8b"/>
-<approved hash="18,29,eee1136b07650fb0"/>
-<approved hash="18,29,eef6b9c9a996b230"/>
+<approved hash="18,29,e65ad4ff8ffe7d8b"/>
 <approved hash="18,29,e64c6966210cd730"/>
+<approved hash="18,29,eef6b9c9a996b230"/>
 <approved hash="18,29,070e8a24c24ed730"/>
 <approved hash="18,29,0fa858974ad0b230"/>
 <approved hash="18,29,b262a3806b869c5d"/>
 <approved hash="18,29,e341e3603b653d3c"/>
-<approved hash="18,29,ccc29d334e03a6fb"/>
 <approved hash="18,29,ce3ee02a5cccfe05"/>
+<approved hash="18,29,ccc29d334e03a6fb"/>
 <approved hash="18,29,0664e329af6bf953"/>
 <approved hash="18,29,031b4922ba215e3d"/>
 <approved hash="18,29,a0a7e117dff63eb9"/>
@@ -5283,8 +5278,8 @@ Based on the following sources:
 <approved hash="4,16,b6b26a015084f752"/>
 <approved hash="4,16,f6bb6e7c700bedc2"/>
 <approved hash="4,16,eee27368611ff99b"/>
-<approved hash="4,16,ce4dc9e60d26d189"/>
 <approved hash="4,16,943a89b85df51b70"/>
+<approved hash="4,16,ce4dc9e60d26d189"/>
 <approved hash="4,16,e8697625113772ba"/>
 <approved hash="4,16,69d8b452f7489b13"/>
 <approved hash="4,16,8ee4ab6ec119319c"/>

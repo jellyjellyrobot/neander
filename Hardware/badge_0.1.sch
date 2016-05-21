@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -5689,6 +5689,22 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <circle x="-3.81" y="0" radius="1.02390625" width="0" layer="30"/>
 <circle x="3.81" y="0" radius="1.04726875" width="0" layer="30"/>
 </package>
+<package name="PAD.02X.02">
+<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
+</package>
+<package name="PAD.03X.03">
+<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.05">
+<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="PAD.03X.04">
+<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="TP_15TH">
+<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -5705,6 +5721,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="TEST-POINT">
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;Value</text>
+<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5836,6 +5859,54 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP">
+<description>Bare copper test points for troubleshooting or ICT</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2" package="PAD.02X.02">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3" package="PAD.03X.03">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X5" package="PAD.03X.05">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3X4" package="PAD.03X.04">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TP_15TH_THRU" package="TP_15TH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6839,6 +6910,8 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <part name="D2" library="diode" deviceset="MBR0520LT" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1UF-25V-10%(0805)" device="&quot;" value="10uF"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X6" device=""/>
+<part name="TP10" library="SparkFun-Passives" deviceset="TEST-POINT" device="2" value="TEST-POINT2"/>
+<part name="TP11" library="SparkFun-Passives" deviceset="TEST-POINT" device="2" value="TEST-POINT2"/>
 </parts>
 <sheets>
 <sheet>
@@ -6880,7 +6953,7 @@ array</text>
 <instance part="U4" gate="A" x="63.5" y="130.81"/>
 <instance part="U6" gate="G$1" x="278.13" y="160.02"/>
 <instance part="U$9" gate="A" x="280.67" y="222.25"/>
-<instance part="U$10" gate="G$1" x="24.13" y="210.82"/>
+<instance part="U$10" gate="G$1" x="31.75" y="210.82"/>
 <instance part="LED1" gate="G$1" x="83.82" y="123.19"/>
 <instance part="LED2" gate="G$1" x="228.6" y="71.12"/>
 <instance part="C1" gate="G$1" x="43.18" y="118.11"/>
@@ -6939,6 +7012,8 @@ array</text>
 <instance part="SW2" gate="G$5" x="276.86" y="82.55"/>
 <instance part="SW2" gate="G$4" x="276.86" y="83.82"/>
 <instance part="JP1" gate="A" x="58.42" y="177.8"/>
+<instance part="TP10" gate="G$1" x="19.05" y="223.52" rot="R90"/>
+<instance part="TP11" gate="G$1" x="22.86" y="223.52" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7103,7 +7178,7 @@ array</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="P$GND"/>
-<wire x1="16.51" y1="205.74" x2="19.05" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="205.74" x2="26.67" y2="205.74" width="0.1524" layer="91"/>
 <label x="16.51" y="205.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -7359,7 +7434,7 @@ array</text>
 <net name="VBUS" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="P$VCC"/>
-<wire x1="16.51" y1="215.9" x2="19.05" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="215.9" x2="26.67" y2="215.9" width="0.1524" layer="91"/>
 <label x="16.51" y="215.9" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -7476,6 +7551,10 @@ array</text>
 <pinref part="U$10" gate="G$1" pin="P$D-"/>
 <wire x1="16.51" y1="213.36" x2="19.05" y2="213.36" width="0.1524" layer="91"/>
 <label x="16.51" y="213.36" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP10" gate="G$1" pin="1"/>
+<wire x1="19.05" y1="213.36" x2="26.67" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="19.05" y1="223.52" x2="19.05" y2="213.36" width="0.1524" layer="91"/>
+<junction x="19.05" y="213.36"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="D-"/>
@@ -7486,8 +7565,12 @@ array</text>
 <net name="D+" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="P$D+"/>
-<wire x1="16.51" y1="210.82" x2="19.05" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="210.82" x2="22.86" y2="210.82" width="0.1524" layer="91"/>
 <label x="16.51" y="210.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP11" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="210.82" x2="26.67" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="223.52" x2="22.86" y2="210.82" width="0.1524" layer="91"/>
+<junction x="22.86" y="210.82"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="D+"/>
@@ -7498,7 +7581,7 @@ array</text>
 <net name="ID" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="P$ID"/>
-<wire x1="16.51" y1="208.28" x2="19.05" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="208.28" x2="26.67" y2="208.28" width="0.1524" layer="91"/>
 <label x="16.51" y="208.28" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -8110,8 +8193,6 @@ array</text>
 <approved hash="113,1,277.182,69.85,LED7,,,,,"/>
 <approved hash="113,1,287.342,69.85,LED8,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
-<approved hash="113,1,57.1077,180.471,JP1,,,,,"/>
-<approved hash="113,1,39.0414,53.7295,JP2,,,,,"/>
 <approved hash="113,1,206.333,149.665,J3,,,,,"/>
 <approved hash="113,1,342.307,162.365,J4,,,,,"/>
 <approved hash="113,1,347.303,224.985,J5,,,,,"/>

@@ -1745,6 +1745,9 @@ Source: RS Components</description>
 <text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="PAD.02X.02_JELLY">
+<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -3121,6 +3124,14 @@ SFE parts COM-10855 (330), COM-10856 (10K)&lt;br&gt;</description>
 </technologies>
 </device>
 <device name="TP_15TH_THRU" package="TP_15TH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="PAD.02X.02_JELLY">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 </connects>

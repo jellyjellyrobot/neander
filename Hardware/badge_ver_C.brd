@@ -171,8 +171,10 @@
 <wire x1="1.27" y1="41.91" x2="1.27" y2="38.1" width="0.0635" layer="20"/>
 <text x="5.318125" y="6.50875" size="3.81" layer="1" font="vector" ratio="12" rot="R90">X</text>
 <text x="4.92125" y="9.763125" size="2.54" layer="1" font="vector" ratio="12" rot="R90">CTF</text>
-<text x="26.19375" y="10.080625" size="1.016" layer="1" font="vector" ratio="31" rot="R90">-.-- ... / -.. 
-.--- / .---</text>
+<text x="30.32125" y="10.239375" size="1.016" layer="1" font="vector" ratio="31" distance="100" rot="R90">- . - -   . . .
+- . . 
+. - - -
+. - - -</text>
 <text x="71.54875" y="37.30625" size="1.016" layer="21" font="vector" rot="R90">RESET</text>
 <text x="71.33046875" y="28.6940625" size="1.016" layer="21" font="vector" rot="R90">SELECT</text>
 <text x="2.460625" y="33.81375" size="1.016" layer="21" font="vector" rot="SR90" align="center">LCD
@@ -2008,13 +2010,13 @@ ver. C</text>
 <wire x1="50.64125" y1="26.035" x2="50.32375" y2="25.7175" width="0.127" layer="22"/>
 <wire x1="50.32375" y1="25.7175" x2="50.95875" y2="25.7175" width="0.127" layer="22"/>
 <wire x1="50.95875" y1="25.7175" x2="50.64125" y2="26.035" width="0.127" layer="22"/>
-<text x="1.508125" y="47.9425" size="0.8128" layer="22" font="vector" rot="MR270" align="top-center">VCC</text>
-<text x="13.414375" y="47.9425" size="0.8128" layer="22" font="vector" rot="MR270" align="top-center">GND</text>
-<text x="2.06375" y="2.301875" size="0.8128" layer="22" font="vector" rot="MR270" align="bottom-center">VCC</text>
-<text x="14.208125" y="2.2225" size="0.8128" layer="22" font="vector" rot="MR270" align="bottom-center">GND</text>
+<text x="1.508125" y="47.78375" size="0.8128" layer="22" font="vector" rot="SMR270" align="top-center">VCC</text>
+<text x="13.414375" y="47.78375" size="0.8128" layer="22" font="vector" rot="SMR270" align="top-center">GND</text>
+<text x="2.06375" y="2.301875" size="0.8128" layer="22" font="vector" rot="SMR270" align="bottom-center">VCC</text>
+<text x="14.208125" y="2.2225" size="0.8128" layer="22" font="vector" rot="SMR270" align="bottom-center">GND</text>
 <text x="1.74625" y="47.3075" size="1.27" layer="21" font="vector" rot="R270" align="center">VCC</text>
 <text x="13.81125" y="47.9425" size="1.27" layer="21" font="vector" rot="R270" align="center">GND</text>
-<text x="13.81125" y="2.2225" size="1.27" layer="21" font="vector" rot="R270" align="center">GND</text>
+<text x="13.81125" y="2.54" size="1.27" layer="21" font="vector" rot="R270" align="center">GND</text>
 <text x="1.5875" y="3.175" size="1.27" layer="21" font="vector" rot="R270" align="center">VCC</text>
 <text x="97.155" y="1.5875" size="1.651" layer="1" font="vector" ratio="31" rot="R90">-. . .- -. -.. . .-.</text>
 <text x="95.885" y="24.13" size="1.651" layer="16" font="vector" ratio="31" rot="SMR270" align="center">. -..- .--. .-.. --- .. -
@@ -2032,8 +2034,10 @@ ver. C</text>
 <text x="4.365625" y="25.24125" size="0.6096" layer="21" font="vector" rot="R90" align="center-left">0.1uF</text>
 <text x="21.74875" y="10.16" size="2.032" layer="1" font="vector" ratio="14" rot="R90">Neander
 ver. C</text>
-<text x="26.19375" y="10.080625" size="1.016" layer="29" font="vector" ratio="31" rot="R90">-.-- ... / -.. 
-.--- / .---</text>
+<text x="30.32125" y="10.239375" size="1.016" layer="29" font="vector" ratio="31" distance="100" rot="R90">- . - -   . . .
+- . . 
+. - - -
+. - - -</text>
 <text x="4.365625" y="31.511875" size="0.6096" layer="21" font="vector" rot="R270" align="center">22uF</text>
 <text x="76.2" y="23.574375" size="0.6096" layer="21" font="vector" rot="R180" align="center">12k</text>
 <text x="65.405" y="13.335" size="0.6096" layer="21" font="vector" rot="R180" align="center">KLRV</text>
@@ -5252,33 +5256,33 @@ Based on the following sources:
 <approved hash="18,29,50576c41cf227111"/>
 <approved hash="18,29,7e90f3c30fa6cd82"/>
 <approved hash="18,29,7e666084d1e182f3"/>
-<approved hash="18,29,eee1136b07650fb0"/>
-<approved hash="18,29,0fbff235e4230fb0"/>
 <approved hash="18,29,071837bd6cbc7d8b"/>
+<approved hash="18,29,0fbff235e4230fb0"/>
+<approved hash="18,29,eee1136b07650fb0"/>
 <approved hash="18,29,e65ad4ff8ffe7d8b"/>
-<approved hash="18,29,e64c6966210cd730"/>
-<approved hash="18,29,eef6b9c9a996b230"/>
 <approved hash="18,29,070e8a24c24ed730"/>
 <approved hash="18,29,0fa858974ad0b230"/>
-<approved hash="18,29,b262a3806b869c5d"/>
+<approved hash="18,29,eef6b9c9a996b230"/>
+<approved hash="18,29,e64c6966210cd730"/>
 <approved hash="18,29,e341e3603b653d3c"/>
-<approved hash="18,29,ccc29d334e03a6fb"/>
+<approved hash="18,29,b262a3806b869c5d"/>
 <approved hash="18,29,ce3ee02a5cccfe05"/>
+<approved hash="18,29,ccc29d334e03a6fb"/>
 <approved hash="18,29,0664e329af6bf953"/>
 <approved hash="18,29,031b4922ba215e3d"/>
-<approved hash="18,29,a0a7e117dff63eb9"/>
 <approved hash="18,29,b25a5d8fdd38a7c6"/>
+<approved hash="18,29,a0a7e117dff63eb9"/>
 <approved hash="18,29,288d356ffd6906b2"/>
 <approved hash="18,29,79ae758fad8aa7d3"/>
 <approved hash="18,29,f9ec60167f613aec"/>
 <approved hash="18,29,ec938a9e7a2bdd01"/>
-<approved hash="18,29,13a11380cb85cddc"/>
 <approved hash="18,29,428253609b666cbd"/>
+<approved hash="18,29,13a11380cb85cddc"/>
 <approved hash="18,29,969368bda0b6b899"/>
-<approved hash="18,29,1b776d0046014f33"/>
 <approved hash="18,29,24edebdfffa63958"/>
-<approved hash="18,29,24e50c3c660acdd8"/>
+<approved hash="18,29,1b776d0046014f33"/>
 <approved hash="18,29,1b7e9988dfaca8d8"/>
+<approved hash="18,29,24e50c3c660acdd8"/>
 <approved hash="18,29,b65a3c48b2367198"/>
 <approved hash="18,29,a6d21041b28f4f27"/>
 <approved hash="18,29,d5e7cdfc07b61d3b"/>
@@ -5286,11 +5290,11 @@ Based on the following sources:
 <approved hash="18,29,682f16005e0b4624"/>
 <approved hash="18,29,a70b5ddb5da3d6f1"/>
 <approved hash="18,29,b0fcb7c05a1a2eb4"/>
-<approved hash="18,29,85c72d1840b1dac6"/>
 <approved hash="18,29,8271f7a319455c2f"/>
+<approved hash="18,29,85c72d1840b1dac6"/>
 <approved hash="18,29,757ae834d0364d78"/>
-<approved hash="18,29,d1e264826480d1e0"/>
 <approved hash="18,29,956d20ba68b8dd6f"/>
+<approved hash="18,29,d1e264826480d1e0"/>
 <approved hash="18,29,755fea41b2432d5d"/>
 <approved hash="19,1,0ea1a29e51ec1c58"/>
 <approved hash="4,1,eb43174ddfaa7692"/>

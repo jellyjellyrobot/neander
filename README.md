@@ -35,7 +35,7 @@ The Neander comes with an accesory kit which includes the following
 
 The on-board USB-Serial Adaptor is based on a Silabs CP2102 chip.
 
-OS specific drivers can be found on the [manufacturer's website](http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx). A tutorial on how to use this device can be found [here](https://learn.sparkfun.com/tutorials/cp2102-usb-to-serial-converter-hook-up-guide). The datasheet can be found [here](https://cdn.sparkfun.com/datasheets/BreakoutBoards/CP2102_v1.2.pdf.
+OS specific drivers can be found on the [manufacturer's website](http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx). A tutorial on how to use this device can be found [here](https://learn.sparkfun.com/tutorials/cp2102-usb-to-serial-converter-hook-up-guide). The datasheet can be found [here](https://cdn.sparkfun.com/datasheets/BreakoutBoards/CP2102_v1.2.pdf).
 
 ## Serial Interfacing with other electronics
 

@@ -4,7 +4,7 @@
 
 The Neander is a microcontroller platform that is created for NUS GreyHat's XCTF.
 
-This board is based on the ESP8266 microcontroller series by Espressif and derives certains parts from Adafruit's Feather and Sparkfun's Thing based on the same microcontroller platform.
+This board is based on the ESP8266 microcontroller series by Espressif and derives certain components from Adafruit's Feather and Sparkfun's Thing based on the same microcontroller platform.
 
 ## Specifications
 
@@ -18,9 +18,9 @@ This board is based on the ESP8266 microcontroller series by Espressif and deriv
 - Indicator LEDs (Charge, Power)
 - Backlight LEDs and Switches
 
-## Neander Accesory kit
+## Neander Accessory kit
 
-The Neander comes with an accesory kit which includes the following
+The Neander comes with an accessory kit which includes the following
 
 - Lithium Polymer Battery
 - MicroUSB cable
@@ -37,11 +37,11 @@ The on-board USB-Serial Adaptor is based on a Silabs CP2102 chip.
 
 OS specific drivers can be found on the [manufacturer's website](http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx). A tutorial on how to use this device can be found [here](https://learn.sparkfun.com/tutorials/cp2102-usb-to-serial-converter-hook-up-guide). The datasheet can be found [here](https://cdn.sparkfun.com/datasheets/BreakoutBoards/CP2102_v1.2.pdf).
 
-## Serial Interfacing with other electronics
+## Interfacing with other electronics
 
-The USB-Serial adaptor is supplied as a breakout board. If you need a serial adaptor "out in the field", you can choose to break it and solder any 2.54mm compatible headers.
+The USB-Serial adaptor is supplied as a breakout board. If you need a serial adaptor "out in the field", you can choose to break it and solder on any 2.54mm compatible headers for convenience.
 
-To interface the serial adaptor with other serial devices in-situ, please solder the double row headers found in the accessory packs and disconnect (desolder) all 5 SMD jumper pads.
+To interface the serial adaptor with other serial devices with the CP2102 in-situ, please solder the double row headers found in the accessory packs and disconnect (desolder) all 5 SMD jumper pads.
 
 ## Contributors
 

@@ -45,3 +45,9 @@ eagle.epf
 # Mac specific files
 .DS_Store
 *.DS_Store
+
+# GCC files
+Firmware/build/*
+*.a
+*.out
+*.o

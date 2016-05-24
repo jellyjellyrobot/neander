@@ -51,4 +51,4 @@ make rebuild
 
 ## Wiki
 
-You can refer to [esp8266-wiki](https://github.com/esp8266/esp8266-wiki/wiki) learn more about the ESP8266, its features, architecture and boot process and memory maps.
+You can refer to [esp8266-wiki](https://github.com/esp8266/esp8266-wiki/wiki) learn more about the ESP8266, its features, architecture, boot process and memory map.

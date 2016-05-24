@@ -41,7 +41,7 @@ OS specific drivers can be found on the [manufacturer's website](http://www.sila
 
 The USB-Serial adaptor is supplied as a breakout board. If you need a serial adaptor "out in the field", you can choose to break it and solder on any 2.54mm compatible headers for convenience.
 
-To interface the serial adaptor with other serial devices with the CP2102 in-situ, please solder the double row headers found in the accessory packs and disconnect (desolder) all 5 SMD jumper pads.
+To interface the serial adaptor with other serial devices with the CP2102 in-situ, you may solder the double row headers found in the accessory packs and disconnect (desolder) all 5 SMD jumper pads.
 
 ## Contributors
 

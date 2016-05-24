@@ -1,82 +1,51 @@
-# nEanDer Firmware
+# Test Firmware
 
-The nEanDer is a microcontroller platform that is created for NUS GreyHat's XCTF.
+This readme describes the test harness for the ESP-8266 based Neander board.
 
-This board is based on the ESP8266 microcontroller series by Espressif and derives certains parts from Adafruit's Feather and Sparkfun's Thing based on the same microcontroller platform.
+## Arduino programming setup
 
-## Specifications
+The [Arduino IDE](https://www.arduino.cc/en/Main/Software) can be used to upload code to the Neander board.
 
-- ESP8266 32 bit Microcontroller platform with Integrated 802.11 b/g/n
-- AutoReset Feature
-- 500mA 3.3V Voltage Regulator
-- USB-Serial Interface (CP2102)
-- 7 Buttons (including Reset)
-- Lithium Polymer Battery
-- Lithium Polumer Charger
+To setup your Arduino IDE environment to compile and upload code to the Neander, please use [this tutorial](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide).
 
-## Codenames
+## Serial programming/debugging setup
 
-FeTChX
+There are many serial programming utilities for the ESP8266 chips, we support [this](https://github.com/themadinventor/esptool). You can also use [this](https://github.com/igrr/esptool-ck). **YMMV**
 
-## Contributors
+``` sh
+# installs esptool.py, a python utility that allows for serial programming and debugging of ESP8266 chips
+pip install esptool
+```
 
-Jacob
-Darell
-Yu Siang
-Jeremias
+## Firmware Upload
 
-Shell
+The flash mode, size and frequency have to be set to the specific values based on the ESP12-F modules.
 
-1
-2
-3
-4
-5
-sudo python ./esptool.py --port /dev/ttyUSB0 write_flash 0x00000 ../nodemcu_integer_0.9.6-dev_20150704.bin
-[sudo] password for jaufranc:
-Connecting...
-Erasing flash...
-Writing at 0x00048000... (65 %)
+``` sh
+esptool.py -p {insert port here} write_flash 0x00000 firmware/0x00000.bin 0x40000 firmware/0x40000.bin --flash_mode dio --flash_size 32m --flash_freq 40m
+```
 
+## Firmware Dump
 
-Read more: http://www.cnx-software.com/2015/10/29/getting-started-with-nodemcu-board-powered-by-esp8266-wisoc/#ixzz459CQPVxu
+This command dumps the flash memory from the region 0x0000 to 0x7490 to firmware/0x00000.bin.dump
 
+``` sh
+esptool.py --baud 115200 -p /dev/cu.SLAB_USBtoUART read_flash 0x0000 0x7490 firmware/0x00000.bin.dump
+```
 
-esptool.py -p /dev/cu.SLAB_USBtoUART write_flash 0x00000 ./nodemcu_float_0.9.6-dev_20150704.binq
+## GCC Toolchain setup
 
+We use [esp-open-sdk](https://github.com/pfalcon/esp-open-sdk), a collection of open-source utilities for compilation of source code to the xtensa instruction set architecture (used in ESP8266).
+
+Once set up, you may reference the xtensa toolchain by 
+
+```
+export PATH={installation_dir}/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
+```
 
 
+## Compilation and Upload of test suite
 
-brew tap homebrew/dupes
-brew install binutils coreutils automake wget gawk libtool gperf gnu-sed --with-default-names grep
-export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
-sudo hdiutil create ~/Documents/case-sensitive.dmg -volname "case-sensitive" -size 10g -fs "Case-sensitive HFS+"
-sudo hdiutil mount ~/Documents/case-sensitive.dmg
-cd /Volumes/case-sensitive
-
-git clone --recursive https://github.com/pfalcon/esp-open-sdk.git
-#https://github.com/pfalcon/esp-open-sdk/issues/45
-cd esp-open-sdk
-make
-
-brew install gnu-sed
-ln -s /usr/local/Cellar/gnu-sed/4.2.2/bin/sed /usr/local/bin/gsed
-
-gsed -i '1s/^/#include <stddef.h>\n/' crosstool-NG/.build/src/gcc-4.8.2/gcc/graphite.c 
-gsed -i '1s/^/#include <stddef.h>\n/' crosstool-NG/.build/src/gcc-4.8.2/gcc/graphite-blocking.c 
-gsed -i '1s/^/#include <stddef.h>\n/' crosstool-NG/.build/src/gcc-4.8.2/gcc/graphite-clast-to-gimple.c
-gsed -i '1s/^/#include <stddef.h>\n/' crosstool-NG/.build/src/gcc-4.8.2/gcc/graphite-dependences.c 
-gsed -i '1s/^/#include <stddef.h>\n/' crosstool-NG/.build/src/gcc-4.8.2/gcc/graphite-interchange.c 
-gsed -i '1s/^/#include <stddef.h>\n/' crosstool-NG/.build/src/gcc-4.8.2/gcc/graphite-optimize-isl.c 
-gsed -i '1s/^/#include <stddef.h>\n/' crosstool-NG/.build/src/gcc-4.8.2/gcc/graphite-poly.c 
-gsed -i '1s/^/#include <stddef.h>\n/' crosstool-NG/.build/src/gcc-4.8.2/gcc/graphite-scop-detection.c 
-gsed -i '1s/^/#include <stddef.h>\n/' crosstool-NG/.build/src/gcc-4.8.2/gcc/graphite-sese-to-poly.c
-
-
-
-#Xtensa toolchain is built, to use it:
-sudo hdiutil mount ~/Documents/case-sensitive.dmg
-export PATH=/Volumes/case-sensitive/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
-
-## xtensa-lx106-elf-gcc -I$(THISDIR)/sdk/include -L$(THISDIR)/sdk/lib
-## esptool.py -p /dev/cu.SLAB_USBtoUART write_flash 0x00000 0x00000.bin 0x40000 0x40000.bin --flash_mode dio --flash_size 32m --flash_freq 40m
+```sh
+make rebuild
+```

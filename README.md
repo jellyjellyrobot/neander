@@ -1,22 +1,47 @@
-# nEanDer
+# Neander
 
-The nEanDer is a microcontroller platform that is created for NUS GreyHat's XCTF.
+
+
+The Neander is a microcontroller platform that is created for NUS GreyHat's XCTF.
 
 This board is based on the ESP8266 microcontroller series by Espressif and derives certains parts from Adafruit's Feather and Sparkfun's Thing based on the same microcontroller platform.
 
 ## Specifications
 
 - ESP8266 32 bit Microcontroller platform with Integrated 802.11 b/g/n
-- AutoReset Feature
+- Auto-Reset
+- Deep Sleep option (enabled)
 - 500mA 3.3V Voltage Regulator
 - USB-Serial Interface (CP2102)
-- 7 Buttons (including Reset)
-- Lithium Polymer Battery
+- 6 Buttons (including Reset)
 - Lithium Polumer Charger
+- Indicator LEDs (Charge, Power)
+- Backlight LEDs and Switches
 
-## Codenames
+## Neander Accesory kit
 
-FeTChX
+The Neander comes with an accesory kit which includes the following
+
+- Lithium Polymer Battery
+- MicroUSB cable
+- Short Lanyard (For CP2102)
+- 10cm Dupont Jumper Cables (10 each: M-M, F-F, F-M)
+- Single Row Headers 1*40 pin
+- Double Row Headers 2*6 pin
+- 6 Jumpers
+- 2 Stickers
+
+## Using the USB-Serial Adaptor
+
+The on-board USB-Serial Adaptor is based on a Silabs CP2102 chip.
+
+OS specific drivers can be found on the [manufacturer's website](http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx). A tutorial on how to use this device can be found [here](https://learn.sparkfun.com/tutorials/cp2102-usb-to-serial-converter-hook-up-guide). The datasheet can be found [here](https://cdn.sparkfun.com/datasheets/BreakoutBoards/CP2102_v1.2.pdf.
+
+## Serial Interfacing with other electronics
+
+The CP2102 is supplied as a breakout board. If you need a serial adaptor "out in the field", you can choose to break it and solder any 2.54mm compatible headers.
+
+To interface the CP2102 with other serial devices in-situ, please solder the double row headers found in the accessory packs and disconnect all 5 SMD jumper pads.
 
 ## Contributors
 
@@ -24,11 +49,3 @@ Jacob
 Darell
 Yu Siang
 Jeremias
-
-Things that need to be done
-fix transistor layout
-position capacitors futher apart
-fix lipo connector
-bridge reset
-replace solder paste and flux
-place cp2102 after refow

@@ -2,7 +2,7 @@
 
 ![Neander](/Hardware/neander.jpg)
 
-The Neander is a microcontroller platform that is created for NUS Greyhats' XCTF.
+The Neander is a microcontroller platform that is created for NUS Greyhats' X-CTF.
 
 This board is based on the ESP8266 microcontroller series by Espressif and derives certain components from Adafruit's Feather and Sparkfun's Thing based on the same microcontroller platform.
 

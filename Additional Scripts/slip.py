@@ -76,16 +76,27 @@ ep.set(bold=True)
 ep.text("Platinum Sponsors\n\n")
 ep.set(bold=False)
 ep.image("./VantagePoint.png")
+ep.text("\n")
+'''
 ep.text("Vantage Point\n\n")
+'''
 
 ep.set(bold=True)
 ep.text("Gold Sponsors\n\n")
 ep.set(bold=False)
 ep.image("./baml.jpg")
+ep.text("\n")
+'''
 ep.text("Bank of America Merrill Lynch\n")
+'''
 ep.image("./CSA.jpg")
+ep.text("\n")
+'''
 ep.text("Cyber Security Agency of Singapore\n")
+'''
 ep.image("./cybertestsystems.png")
+ep.text("\n")
+'''
 ep.text("Cyber Test Systems\n")
-
+'''
 ep.cut()

@@ -2,7 +2,7 @@
 
 ## Firmware 1: XCTF
 
-You can find the firmware provided during the competition [here](https://github.com/geekman/badger)!
+You can find the firmware provided during the competition [here](https://github.com/geekman/badger)! The writeup's [here](http://irq5.io/2016/07/19/x-ctf-2016-badge-firmware/)!
 
 ## Firmware 2: Test harness
 

@@ -43,6 +43,10 @@ The USB-Serial adaptor is supplied as a breakout board. If you need a serial ada
 
 To interface the serial adaptor with other serial devices with the CP2102 in-situ, you may solder the double row headers found in the accessory packs and disconnect (desolder) all 5 SMD jumper pads.
 
+## XCTF 2016
+
+Here are the repositories for the [qualifiers] (https://github.com/NUSGreyhats/xctf-2016-quals-challenges) and [finals](https://github.com/NUSGreyhats/x-ctf-2016-finals).
+
 ## Contributors
 
 Jacob  

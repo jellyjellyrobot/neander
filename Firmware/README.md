@@ -1,6 +1,12 @@
-# Test Firmware
+# Firmwares
 
-This describes the test harness for the ESP-8266 based Neander board.
+## Firmware 1: XCTF
+
+You can find the firmware provided during the competition [here](https://github.com/geekman/badger)!
+
+## Firmware 2: Test harness
+
+This repository hosts the test harness for the ESP-8266 based Neander board.
 
 ## Arduino programming setup
 

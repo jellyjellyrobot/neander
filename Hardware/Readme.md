@@ -6,7 +6,7 @@ This board was designed in 3 stages. 2 Prototypes were made (with mistakes :D) a
 
 ##Bill of Materials
 
-The [Bill of Materials](https://docs.google.com/spreadsheets/d/1uqtM1KnyO73MOWw96gzZbUizj1a3IRjboSeatZ1BTwQ/edit?usp=sharing) can be found here!
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1qAbk1U9EDFSMrGZ68tAHjeOSaGbgNGMX1J6-07fJV7c/edit?usp=sharing) can be found here!
 
 ## Production Writeups
 
